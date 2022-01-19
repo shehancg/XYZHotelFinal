@@ -1,0 +1,15 @@
+
+.iconsvg svg{
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.hd h6{
+   text-align: center;
+}
+.iconsvg p {
+  text-align: center;
+}

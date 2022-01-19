@@ -1,0 +1,97 @@
+@media screen and (min-width: 768px) {
+    .ov1{
+        padding-left:6.25rem !important ;
+        padding-right:6.25rem !important ;
+    }
+  }
+  body{
+    background-color: #E5E5E5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+body{
+    background-color: #E5E5E5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+.st_p_content{
+    margin-top: 50px;
+}
+.top{
+    background-color: #B3A258;
+    height: 15vh;
+}
+.top svg{
+    width: 75px;
+    height: 75px;
+    margin-top: 11vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+.hs2{
+    color: black;
+    margin-top: 20px;
+}
+.ftboxrw1{
+    background-color: black;
+    color: white;
+    height: 30px;
+}
+.ftboxrw2{
+    background-color: white;
+    color: black;
+    height: 50px;
+}
+.sdbox{
+    padding: 20px;
+}
+.sdboxrw1{
+    background-color: black;
+    color: white;
+    height: 30px;
+}
+.sdboxrw2{
+    background-color: white;
+    color: black;
+}
+.ftimg{
+    width:280px;
+    height: 175px;
+    padding-top: 15px;
+}
+.sdpara1{
+    text-align: center;
+    color: #B3A258;
+    padding-top: 5px;
+}
+.sdboxcol2{
+    font-size: 12px;
+    padding: 15px;
+}
+
+.card-header1{
+    background-color:#707070;
+    padding: 5px;
+    color: white;
+}
+.card-body1{
+    background-color: #BCBCBC;
+    padding: 10px;
+    color: black;
+}
+.iconsvg svg{
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.iconsvg p {
+    text-align: center;
+}
+.nextbtn{
+    background-color: #B3A258;
+    color: white;
+}

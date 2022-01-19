@@ -1,0 +1,175 @@
+
+/*Navigation bar*/
+@media only screen and (min-width: 992px) {
+    .cf1{
+        padding-left: 50px !important;
+        padding-right: 50px !important;
+    }
+    .bnform_r1{
+        height: 140px;
+    }
+  }
+.navbar {
+    position: relative;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.navbar-brand{
+    text-align: center;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+}
+.cf1c1{
+    display: flex;
+}
+.cf1 {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+.btn_bn_nav{
+    display: block;
+    width: 100%;
+    background-color: #B3A258;
+    color: white;
+    border: none;
+    padding: 5px;
+}
+.lg , .sp{
+    color: white;
+    text-decoration: none;
+}
+.lg .row:hover , .sp .row:hover{
+    background-color: #707070;
+    color: white;
+}
+.lg_nv img, .sp_nv img{
+    width: 20px;
+}
+
+.dark1{
+    background-color: rgba(33,37,41,.7);
+}
+.dark2{
+    background-color: rgba(33,37,41,.5);
+}
+.bg_gray{
+    background-color: #5F5E5E;
+}
+.btn_bn_col{
+    display: flex;
+    justify-content: end !important;
+}
+/*
+Book Now Form
+*/
+.bnform_cf{
+    z-index: 2000 !important;
+    position: fixed;
+    top: 0;
+}
+.bnform_r1{
+    background-color: #B3A258;
+    
+}
+.bnform_close{
+    text-decoration: none;
+    color:white;
+}
+.bnform_close h2{
+    text-align: center;
+}
+.bnform_r2,.bnform_r3,.bnform_r4{
+    background-color: #E5E5E5;
+}
+.bnform_r2{
+    padding-top: 10px;
+}
+
+.bnform_r3 h6,.bnform_r4 h5,.bnform_r2 h4{
+    text-align: center;
+}
+.bnform_r2 h4{
+    background-color: white;
+}
+.bnform_r4{
+    padding-bottom: 10px;
+}
+.bnform_r4 p{
+    margin-bottom: .5rem !important;
+    background-color: #B3A258;
+    color: white;
+    font-size: large;
+    text-align: center;
+    border-radius: 200px;
+}
+.bnform_r4 a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.bnform_r4 a p:hover{
+    color: black;
+}
+.bnform_r4 input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bnform_datep{
+    background-color:white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bnform_cf{
+    display: none;
+}
+/*Login Modal POP UP*/
+.lg_btn_mh2,.ca_btn_mh2{
+    border-color: #B3A258 !important;
+    border-width: 2px !important;
+    width: 100%;
+    border-radius: 0!important;
+    margin: 0!important;
+}
+.lg_btn_col_mh2,.sp_btn_col_mh2,.modal-header{
+    margin: 0px!important;
+    padding: 0px!important;
+    color: #B3A258;
+}
+.lg_btn_mh,.sp_btn_mh{
+    background-color: #B3A258;
+    color: white;
+    text-align: center;
+}
+.form_ca{
+    display: none;
+}
+.lgform_s_btn,.caform_s_btn{
+    background-color: #B3A258;
+    border-width: 2px;
+    color: white;
+    margin-bottom: 20px;
+}
+.lgsp_form_close_col{
+    position: absolute;
+    right: 0px;
+    background-color:#B3A258;
+    border-radius: 100px;
+    padding: 1px;
+    width: fit-content;
+    top: -20px;
+    
+}
+.lgsp_form_close_btn{
+    margin: 0px !important;
+}
+.roomstxt{
+    display: inline; 
+    width:25px;
+    text-align: center;
+}
