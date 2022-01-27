@@ -5,14 +5,12 @@ import com.example.xyzhotelfinal.model.ReservationObj;
 import com.example.xyzhotelfinal.model.responsehandler.Response;
 import com.example.xyzhotelfinal.service.ReservationService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
+@RequestMapping("/reservation")
 public class ReservationController {
 
     @Autowired
@@ -29,7 +27,7 @@ public class ReservationController {
         }
     }
 
-    @PostMapping("/reservationsave")
+    @PostMapping("/save")
     public synchronized Response save(@RequestBody ReservationObj reservationObj)
     {
         try
@@ -41,7 +39,7 @@ public class ReservationController {
         }
     }
 
-    @GetMapping("/rList")
+    @GetMapping("/reservationList")
     public Response findAll()
     {
         List<ReservationDto> reservationDtoList = reservationService.reservationList();

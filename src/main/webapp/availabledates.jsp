@@ -16,6 +16,8 @@
      <link rel="stylesheet" href="CSS/hotel_dates.css">
      <link rel="stylesheet" href="CSS/nav.css">
      <link rel="stylesheet" href="CSS/prefooter.css">
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <title>XYZ Hotel</title>
 </head>
 <body>
@@ -317,46 +319,46 @@
   <div class="row">
     <div class="col-12">
       <div class="container-fluid tw2">
-        <div class="table-responsive">          
-          <table class="table">
-            <thead>
-              <tr>
-                <th class="th1"></th>
-                <th class="th2">Availability</th>
-                <th class="th2">Quantity</th>
-                <th class="th2">Rate</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="th3">
-                <img src="Image/3333.jpg" alt="" class="imgr1">
-                  Primere beach access room</td>
-                <td class="datatb" style="color: green;">Available</td>
-                <td class="datatb">20 Rooms</td>
-                <td class="datatb">25 000 LKR</td>
-                
-              </tr>
-              <tr>
-                <td class="th3" >
-                  <img src="Image/4444.webp" alt="" class="imgr1">
-                  Primere Ocean View room</td>
-                <td class="datatb" style="color: red;">SOLD</td>
-                <td class="datatb" style="color: red;">0 Rooms</td>
-                <td class="datatb" style="color: red;">50 000 LKR</td>
-                
-              </tr>
-              <tr>
-                <td class="th3">
-                  <img src="Image/3333.jpg" alt="" class="imgr1">
-                  Deluxe Ocean View room</td>
-                <td class="datatb" style="color: green;">Available</td>
-                <td class="datatb">30 Rooms</td>
-                <td class="datatb">75 000 LKR</td>
-                
-              </tr>
-            </tbody>
-          </table>
+        <div class="table-responsive" id="availableRoomTable">
+<%--          <table class="table">--%>
+<%--            <thead>--%>
+<%--              <tr>--%>
+<%--                <th class="th1"></th>--%>
+<%--                <th class="th2">Availability</th>--%>
+<%--                <th class="th2">Quantity</th>--%>
+<%--                <th class="th2">Rate</th>--%>
+<%--              </tr>--%>
+<%--            </thead>--%>
+<%--            <tbody>--%>
+<%--              <tr>--%>
+<%--                <td class="th3">--%>
+<%--                <img src="Image/3333.jpg" alt="" class="imgr1">--%>
+<%--                  Primere beach access room</td>--%>
+<%--                <td class="datatb" style="color: green;">Available</td>--%>
+<%--                <td class="datatb">20 Rooms</td>--%>
+<%--                <td class="datatb">25 000 LKR</td>--%>
+<%--                --%>
+<%--              </tr>--%>
+<%--              <tr>--%>
+<%--                <td class="th3" >--%>
+<%--                  <img src="Image/4444.webp" alt="" class="imgr1">--%>
+<%--                  Primere Ocean View room</td>--%>
+<%--                <td class="datatb" style="color: red;">SOLD</td>--%>
+<%--                <td class="datatb" style="color: red;">0 Rooms</td>--%>
+<%--                <td class="datatb" style="color: red;">50 000 LKR</td>--%>
+<%--                --%>
+<%--              </tr>--%>
+<%--              <tr>--%>
+<%--                <td class="th3">--%>
+<%--                  <img src="Image/3333.jpg" alt="" class="imgr1">--%>
+<%--                  Deluxe Ocean View room</td>--%>
+<%--                <td class="datatb" style="color: green;">Available</td>--%>
+<%--                <td class="datatb">30 Rooms</td>--%>
+<%--                <td class="datatb">75 000 LKR</td>--%>
+<%--                --%>
+<%--              </tr>--%>
+<%--            </tbody>--%>
+<%--          </table>--%>
           </div>
           <div class="row">
             <div class="col-12">
@@ -443,8 +445,8 @@
   </div>
   <!--prefooter here-->
 </div>
-  </div> 
-  
+  </div>
+  <script src="Js/page/availableDates.js"></script>
 
   <script>
     var date = new Date();

@@ -9,5 +9,7 @@ public interface ReservedRoomDtoService {
 
     public List<ReservedRoomDto> reservationListUsingCheckInAndCheckOut(LocalDate checkInDate, LocalDate checkOutDate);
 
-    public List<Object>avRoom(LocalDate checkInDate, LocalDate checkOutDate);
+    public List<Object> avRoom(LocalDate checkInDate, LocalDate checkOutDate);
+
+    public List<ReservedRoomDto> findAll();
 }

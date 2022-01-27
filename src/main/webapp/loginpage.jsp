@@ -231,7 +231,7 @@
 <%--          </div>--%>
           <hr>
           <div class="col-12">
-            <button class="btn_bn_nav">BOOK NOW</button>
+            <button class="btn_bn_nav"><a href="/availabledates">BOOK NOW</a></button>
           </div>
         </div>
       </div>

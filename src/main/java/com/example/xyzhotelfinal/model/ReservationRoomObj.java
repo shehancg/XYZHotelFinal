@@ -15,9 +15,9 @@ public class ReservationRoomObj {
     @Column(nullable = false,length = 20,insertable = false,updatable = false)
     private int reservationId;
 
-    @ManyToOne(targetEntity = ReservationObj.class,cascade=CascadeType.ALL)
-    @JoinColumn(name="reservationId",referencedColumnName = "reservationId", nullable = false)
-    private ReservationObj reservationObj;
+//    @ManyToOne(targetEntity = ReservationObj.class,cascade=CascadeType.ALL)
+//    @JoinColumn(name="reservationId",referencedColumnName = "reservationId", nullable = false)
+//    private ReservationObj reservationObj;
 
     public int getReservationRoomId() {
         return reservationRoomId;

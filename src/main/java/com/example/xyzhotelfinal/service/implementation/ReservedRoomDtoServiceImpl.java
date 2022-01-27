@@ -25,7 +25,7 @@ public class ReservedRoomDtoServiceImpl implements ReservedRoomDtoService {
 
     @Override
     public List<Object> avRoom(LocalDate checkInDate, LocalDate checkOutDate) {
-        List<ReservedRoomDto> reservedRoomDtos = reservationListUsingCheckInAndCheckOut(checkOutDate,checkInDate);
+        List<ReservedRoomDto> reservedRoomDtos = reservationListUsingCheckInAndCheckOut(checkInDate,checkOutDate);
         List<RoomTableObj> roomTable = new ArrayList<>();
         List<Object> roomNoList = new ArrayList<>();
 
@@ -38,5 +38,12 @@ public class ReservedRoomDtoServiceImpl implements ReservedRoomDtoService {
             roomNoList.add(reservedRoomDto.getRoomNo());
         }
         return roomNoList;
+    }
+
+    @Override
+    public List<ReservedRoomDto> findAll() {
+//        List<ReservedRoomDto> reservedRoomDtoList = reservedRoomDtoRepo.findAll();
+       // return reservedRoomDtoRepo.findAll();
+        return null;
     }
 }

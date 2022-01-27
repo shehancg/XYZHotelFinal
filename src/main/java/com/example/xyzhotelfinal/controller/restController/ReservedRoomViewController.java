@@ -29,13 +29,14 @@ public class ReservedRoomViewController {
         return Response.success(reservationRoomViewList);
     }
 
-    @GetMapping(value = "/notin")
+    @GetMapping(value = "/roomList")
     public Response getAvailableRoom(@RequestBody ReservedRoomDto reservationDto){
         List<Object> roomNolist =  reservedRoomDtoService.avRoom(reservationDto.getCheckInDate(),reservationDto.getCheckOutDate());
-        //   List<RoomTable> roomTableList = reservedRoomDtoService.avRoom(reservationDto.getCheckInDate(),reservationDto.getCheckOutDate());
+      //  List<ReservedRoomDto> roomTableList = reservedRoomDtoService.reservationListUsingCheckInAndCheckOut(reservationDto.getCheckInDate(),reservationDto.getCheckOutDate());
         List<RoomTableObj> roomTableList2 =roomService.availableRoom(roomNolist);
 
         return Response.success(roomTableList2);
-        //return null;
+      //  return Response.success(roomTableList);
+       // return null;
     }
 }

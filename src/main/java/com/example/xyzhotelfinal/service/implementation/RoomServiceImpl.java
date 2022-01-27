@@ -16,7 +16,12 @@ public class RoomServiceImpl implements RoomService {
 
     @Override
     public List<RoomTableObj> availableRoom(List<Object> reservedRoomDtoList) {
-        List<RoomTableObj> roomTableList =roomServiceRepository.findByRoomNoNotIn(reservedRoomDtoList);
+        List<RoomTableObj> roomTableList = null;
+        if(reservedRoomDtoList.size()>0) {
+            roomTableList = roomServiceRepository.findByRoomNoNotIn(reservedRoomDtoList);
+        }else{
+            roomTableList = roomServiceRepository.findAll();
+        }
         return roomTableList;
     }
 
