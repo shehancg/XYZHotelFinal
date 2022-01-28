@@ -294,7 +294,7 @@
           <label for="" class="in">Check in</label>
         </div>
         <div class="col">
-          <input type="date" class="form-control">
+          <input type="date" class="form-control" id="checkin">
         </div>
       </div>
           
@@ -306,12 +306,12 @@
           <label for="" class="ot">Check out</label>
         </div>
         <div class="col">
-          <input type="date" class="form-control">
+          <input type="date" class="form-control" id="checkOut">
         </div>
       </div>
     </div>
     <div class="col-12 col-sm-12 col-md-5 col-lg-2 col-xl-2 col-xxl-2 rw1">
-      <input type="submit" class="form-control btn btn-primary checkHD" value="Check">
+      <input  type="button" class="form-control btn btn-primary checkHD" id="checkAvailability" value="Check">
     </div>
 
   
@@ -319,8 +319,8 @@
   <div class="row">
     <div class="col-12">
       <div class="container-fluid tw2">
-        <div class="table-responsive" id="availableRoomTable">
-<%--          <table class="table">--%>
+        <div class="table-responsive" id="availableRoomTabl">
+          <table class="table" id="availableRoomTable">
 <%--            <thead>--%>
 <%--              <tr>--%>
 <%--                <th class="th1"></th>--%>
@@ -358,11 +358,11 @@
 <%--                --%>
 <%--              </tr>--%>
 <%--            </tbody>--%>
-<%--          </table>--%>
+          </table>
           </div>
           <div class="row">
             <div class="col-12">
-              <button type="button" class="btnone">Book Now</button>
+              <button type="button" class="btnone" >Book Now</button>
             </div>
           </div>   
       </div>

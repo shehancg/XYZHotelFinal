@@ -6,10 +6,7 @@ import com.example.xyzhotelfinal.model.responsehandler.Response;
 import com.example.xyzhotelfinal.service.ReservedRoomDtoService;
 import com.example.xyzhotelfinal.service.RoomService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -29,7 +26,7 @@ public class ReservedRoomViewController {
         return Response.success(reservationRoomViewList);
     }
 
-    @GetMapping(value = "/roomList")
+    @PostMapping(value = "/roomList")
     public Response getAvailableRoom(@RequestBody ReservedRoomDto reservationDto){
         List<Object> roomNolist =  reservedRoomDtoService.avRoom(reservationDto.getCheckInDate(),reservationDto.getCheckOutDate());
       //  List<ReservedRoomDto> roomTableList = reservedRoomDtoService.reservationListUsingCheckInAndCheckOut(reservationDto.getCheckInDate(),reservationDto.getCheckOutDate());
