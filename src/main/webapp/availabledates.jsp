@@ -362,7 +362,7 @@
           </div>
           <div class="row">
             <div class="col-12">
-              <button type="button" class="btnone" >Book Now</button>
+              <button type="button" class="btnone" ><a href="/availablerooms">BOOK NOW</a></button>
             </div>
           </div>   
       </div>
