@@ -27,9 +27,10 @@ public class AppController {
     }
 
     @GetMapping("/mybookings")
-    public String myBookings(){
-        return "mybookings";
-    }
+    public String myBookings(){ return "mybookings"; }
+
+    @GetMapping("/rooms")
+    public String rooms(){ return "rooms"; }
 
 
 }

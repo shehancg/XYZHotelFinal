@@ -1,0 +1,98 @@
+@media screen and (min-width: 768px) {
+    .ov1{
+        padding-left:6.25rem !important ;
+        padding-right:6.25rem !important ;
+    }
+  }
+  body{
+    background-color: #E5E5E5;
+    color: #707070;
+}
+.top{
+    background-color: #B3A258;
+    height: 15vh;
+}
+.st_p_content{
+    margin-top: 50px;
+}
+.top svg{
+    width: 75px;
+    height: 75px;
+    margin-top: 11vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+.hs2{
+    color: black;
+    margin-top: 20px;
+}
+.ftboxrw1{
+    background-color: black;
+    color: white;
+    height: 30px;
+}
+.ftboxrw2{
+    background-color: white;
+    color: black;
+    height: 50px;
+}
+.sdbox{
+    padding: 20px;
+    padding-top: 0px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: white;
+    margin-top: 50px;
+}
+.sdboxrw1{
+    background-color: black;
+    color: white;
+    height: 30px;
+    margin-bottom: 40px;
+}
+.sdboxrw2{
+    background-color: white;
+    color: black;
+}
+
+.sdboxrw2padding{
+    padding: 40px;
+    padding-bottom: 20px;
+
+}
+.ftimg{
+    width:280px;
+    height: 175px;
+    padding-top: 15px;
+}
+
+.nextbtn{
+    background-color: #B3A258;
+    color: white;
+}
+.bill{
+    border:1px solid black;
+}
+.to-be-changed_RM{
+    display: block;
+    cursor: pointer;
+    color: #B3A258;
+}
+.to-be-changed_RL,.to-be-changed{
+    display: none;
+    cursor: pointer;
+}
+.to-be-changed_RL{
+    color: #B3A258;
+}
+.tp{
+    color: #B3A258;
+    text-align: right;
+}
+.bill_p,.tp_price{
+ text-align: right;   
+}
+.tp_container{
+    margin-top: 20px;
+}

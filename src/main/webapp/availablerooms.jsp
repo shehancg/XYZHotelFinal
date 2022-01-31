@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="CSS/Rooms&Offers.css">
     <link rel="stylesheet" href="CSS/nav.css">
     <script src="Js/nav.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
     <link rel="stylesheet" href="CSS/prefooter.css">
 </head>
 <body>
@@ -45,7 +47,7 @@
             <div class="col sp_nv">
               <a href="#" class="sp" >
               <div class="row" >
-                <div class="col-9"><p>LOG OUT</p></div>
+                <div class="col-9"><p>LOGOUT</p></div>
                 <div class="col-3"><img src="SVG_icons/login.svg"></div>
               </div>
               </a>
@@ -278,142 +280,143 @@
               <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-7">
                     <div class="container-fluid">
-                        <div class="row ftboxrw1">
-                            <div class="col-5">Currently Viewing</div>
-                            <div class="col-2"></div>
-                            <div class="col-5">Change dates or details</div>
+                      <form>
+                        <div class="row rwone">
+                          
+                          <div class="col-6 col-sm-6 col-md-5 col-lg-5 col-xl-5 col-xxl-5 rw2">
+                            <div class="row">
+                              <div class="col">
+                                <label for="checkIn" class="in">Check in</label>
+                              </div>
+                              <div class="col">
+                                <input id="checkin" type="date" class="form-control">
+                              </div>
+                            </div>
+                                
+                                
+                          </div>
+                          <div class="col-6 col-sm-6 col-md-5 col-lg-5 col-xl-5 col-xxl-5 rw2">
+                            <div class="row">
+                              <div class="col">
+                                <label for="checkOut" class="ot">Check Out</label>
+                              </div>
+                              <div class="col">
+                                <input id="checkOut" type="date" class="form-control">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-12 col-sm-12 col-md-5 col-lg-2 col-xl-2 col-xxl-2 rw1">
+                            <input type="submit" class="form-control btn btn-primary checkHD" value="Check">
+                          </div>
                         </div>
-                        <div class="row ftboxrw2">
-                            <div class="col-3">
-                              <div class="col-12">
-                                <i class="fas fa-calendar-week"></i>
-                               Check in:
-                              </div>
-                              <div class="col-12">
-                                13-01-2022
-                              </div>
-                            </div>
-                            <div class="col-3">
-                              <div class="col-12">
-                                <i class="fas fa-calendar-week"></i>
-                              Check out:
-                              </div>
-                              <div class="col-12">
-                                15-01-2022
-                              </div>
-                            </div>
-                            <div class="col-3">
-                              <div class="col-12">
-                                Night(s):
-                              </div>
-                              <div class="col-12">
-                                2
-                              </div>
-                            </div>
-                            <div class="col-3">
-                              <div class="col-12">For:</div>
-                              <div class="col-12">
-                                2 Adultes
-                              </div>
-                            </div>
+                        </form>  
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5"></div>
             </div>
-            <form>
-            <div class="container sdbox">
-                <div class="row sdboxrw1">
-                    <div class="col-12">
-                        Premiere ocean view room
-                    </div>
-                </div>
-                <div class="row sdboxrw2">
-                    <div class="col-4">
-                        <img src="Image/3333.jpg" alt="" class="ftimg img-fluid">
-                        <p class="sdpara1">Photos | Details</p>
-                        <hr>
-                       <div class="container-fluid fticon">
-                           <div class="row">
-                               <div class="col-2">
-                                 <i class="fas fa-wifi icon"></i>
-                               </div>
-                               <div class="col-10">FREE WIFI</div>
-                           </div>
-                           <div class="row">
-                             <div class="col-2">
-                               <i class="fas fa-bed icon"></i>
-                             </div>
-                             <div class="col-10">ROOM SIZE 97 M2</div>
-                         </div>
-                         <div class="row">
-                           <div class="col-2">
-                             <i class="fas fa-user-friends icon"></i>
-                           </div>
-                           <div class="col-10">MAXIMUM 3 ADULTS</div>
-                       </div>
-                       </div>  
-                     </div>
+      <div id="roomType">
 
-                     <div class="col-5 sdboxcol2">
-                        <p>XYZ luxury accommodation
-                            Daily breakfast
-                            Freedom to adjust your plans with fewer conditions
-                        </p>
-                        <h6>Cancellation Policy:</h6>
-                        <p>
-                            Reservation may not be cancelled. Full payment will be forfeited.
-                        </p>
-                        <h6>
-                            Deposit Policy:
-                        </h6>
-                        <p>
-                            A deposit will be charged to your credit card at the time of reservation. 
-                            The deposit amount can be seen on the next step of the booking. If no 
-                            credit card is provided, the deposit must be made via bank transfer 
-                            within 48 hours after making this reservation.
-                        </p>
-                        <h6>
-                            Guarantee Policy:
-                        </h6>
-                        <p>
-                            Reservation must be guaranteed with one of these cards: 
-                            American Express, China UnionPay, JCB, MasterCard, Visa
-                        </p>
-                        <h6>
-                            Tax Information:
-                        </h6>
-                        <p>
-                            Excluding Taxes and Fees.
-                        </p>
-                    </div>
-                    <div class="col-3">
-                        <div class="row">
-                            <div class="col-md-12 mb-4">
-                                <div class="card">
-                                    <div class="card-header1">
-                                      Standard Rate
-                                    </div>
-                                    <div class="card-body1">
-                                      <h5 class="card-title">LKR 25,000</h5>
-                                      <p class="card-text">Per room per night</p>
-                                    </div>
-                                  </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <h5>Available</h5>
-                            <h6>How many Rooms do you want?</h6>
-                            <div class="col">
-                                Rooms
-                            </div>
-                            <div class="col">
-                                <input type="number" class="form-control" value="0">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      </div>>
+
+<%--            <div class="container sdbox">--%>
+<%--                <div class="row sdboxrw1">--%>
+<%--                    <div class="col-12">--%>
+<%--                        Premiere ocean view room--%>
+<%--                    </div>--%>
+<%--                </div>--%>
+<%--                <div class="row sdboxrw2">--%>
+<%--                    <div class="col-4">--%>
+<%--                        <img src="Image/3333.jpg" alt="" class="ftimg img-fluid">--%>
+<%--                        <p class="sdpara1">Photos | Details</p>--%>
+<%--                        <hr>--%>
+<%--                       <div class="container-fluid fticon">--%>
+<%--                           <div class="row">--%>
+<%--                               <div class="col-2">--%>
+<%--                                 <i class="fas fa-wifi icon"></i>--%>
+<%--                               </div>--%>
+<%--                               <div class="col-10">FREE WIFI</div>--%>
+<%--                           </div>--%>
+<%--                           <div class="row">--%>
+<%--                             <div class="col-2">--%>
+<%--                               <i class="fas fa-bed icon"></i>--%>
+<%--                             </div>--%>
+<%--                             <div class="col-10">ROOM SIZE 97 M2</div>--%>
+<%--                         </div>--%>
+<%--                         <div class="row">--%>
+<%--                           <div class="col-2">--%>
+<%--                             <i class="fas fa-user-friends icon"></i>--%>
+<%--                           </div>--%>
+<%--                           <div class="col-10">MAXIMUM 3 ADULTS</div>--%>
+<%--                       </div>--%>
+<%--                       </div>  --%>
+<%--                     </div>--%>
+
+<%--                     <div class="col-5 sdboxcol2">--%>
+<%--                        <p>XYZ luxury accommodation--%>
+<%--                            Daily breakfast--%>
+<%--                            Freedom to adjust your plans with fewer conditions--%>
+<%--                        </p>--%>
+<%--                        <h6>Cancellation Policy:</h6>--%>
+<%--                        <p>--%>
+<%--                            Reservation may not be cancelled. Full payment will be forfeited.--%>
+<%--                        </p>--%>
+<%--                        <h6>--%>
+<%--                            Deposit Policy:--%>
+<%--                        </h6>--%>
+<%--                        <p>--%>
+<%--                            A deposit will be charged to your credit card at the time of reservation. --%>
+<%--                            The deposit amount can be seen on the next step of the booking. If no --%>
+<%--                            credit card is provided, the deposit must be made via bank transfer --%>
+<%--                            within 48 hours after making this reservation.--%>
+<%--                        </p>--%>
+<%--                        <h6>--%>
+<%--                            Guarantee Policy:--%>
+<%--                        </h6>--%>
+<%--                        <p>--%>
+<%--                            Reservation must be guaranteed with one of these cards: --%>
+<%--                            American Express, China UnionPay, JCB, MasterCard, Visa--%>
+<%--                        </p>--%>
+<%--                        <h6>--%>
+<%--                            Tax Information:--%>
+<%--                        </h6>--%>
+<%--                        <p>--%>
+<%--                            Excluding Taxes and Fees.--%>
+<%--                        </p>--%>
+<%--                    </div>--%>
+<%--                    <div class="col-3">--%>
+<%--                        <div class="row">--%>
+<%--                            <div class="col-md-12 mb-4">--%>
+<%--                                <div class="card">--%>
+<%--                                    <div class="card-header1">--%>
+<%--                                      Standard Rate--%>
+<%--                                    </div>--%>
+<%--                                    <div class="card-body1">--%>
+<%--                                      <h5 class="card-title">LKR 25,000</h5>--%>
+<%--                                      <p class="card-text">Per room per night</p>--%>
+<%--                                    </div>--%>
+<%--                                  </div>--%>
+<%--                            </div>--%>
+<%--                        </div>--%>
+<%--                        <div class="row">--%>
+<%--                            <h5>Available</h5>--%>
+<%--                            <h6>How many Rooms do you want?</h6>--%>
+<%--                            <div class="col">--%>
+<%--                                Rooms--%>
+<%--                            </div>--%>
+<%--                            <div class="col">--%>
+<%--                                <input type="number" class="form-control" value="0">--%>
+<%--                            </div>--%>
+<%--                        </div>--%>
+<%--                    </div>--%>
+<%--                </div>--%>
+<%--            </div>--%>
+
+<%--        new--%>
+
+
+<%--        new--%>
+
             <div class="row">
               <div class="col"></div>
               <div class="col">
@@ -421,7 +424,7 @@
               </div>
               <div class="col"></div>
             </div>
-            </form>
+
             <!--Prefooter here-->
             <div class="container">
               <div class="row">
@@ -492,5 +495,8 @@
             <!--Prefooter here-->
         </div>
     </div>
+
+      <script src="Js/availableRooms.js"></script>
+
 </body>
 </html>

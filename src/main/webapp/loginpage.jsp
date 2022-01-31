@@ -82,7 +82,7 @@
         <div id="sub_nav" class="container " style="display: flex; justify-content: center;">
             <ul class="navbar-nav ">
               <li class="nav-item">
-                <a class="nav-link" href="#">ROOMS</a>
+                <a class="nav-link" href="/rooms">ROOMS</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">DINING</a>
@@ -231,7 +231,7 @@
 <%--          </div>--%>
           <hr>
           <div class="col-12">
-            <button class="btn_bn_nav"><a href="/availabledates">BOOK NOW</a></button>
+            <button class="btn_bn_nav"><a href="/availabledates" style="color: white;">BOOK NOW</a></button>
           </div>
         </div>
       </div>

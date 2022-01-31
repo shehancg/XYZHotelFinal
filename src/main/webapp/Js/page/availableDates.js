@@ -1,13 +1,24 @@
 
 function table(dataArray,roomsArray){
+    $("#availableRoomTable").empty();
     console.log(dataArray);
     console.log(roomsArray);
 
+    let isAvailableRoom = false;
+   /*
+   <div class="col-12">
+      <div class="container-fluid tw2">
+        <div class="table-responsive" id="availableRoomTabl">
+          <table class="table" id="availableRoomTable">
 
 
+          </table>
+          </div>
+    */
 
 
-   let htmlString = "            <thead>\n" +
+   let htmlString = "<table class=\"table\">\n" +
+       "            <thead id='table1'>\n" +
         "              <tr>\n" +
         "                <th class=\"th1\"></th>\n" +
         "                <th class=\"th2\">Availability</th>\n" +
@@ -18,6 +29,7 @@ function table(dataArray,roomsArray){
         "            <tbody>\n" ;
 
     $.each(dataArray, function (dataArrayIndex,dataArrayValue){
+
         let roomCount = 0;
         $.each(roomsArray, function (roomsArrayIndex,roomsArrayValue){
             console.log(roomsArrayValue.roomTypeId);
@@ -46,8 +58,8 @@ function table(dataArray,roomsArray){
     });
 
 
-   let tableEnd  =   "            </tbody>\n" ;
-                //    "          </table>";
+   let tableEnd  =   "            </tbody>\n" +
+                    "          </table>";
 
 
  let table=htmlString+tableEnd;
@@ -80,12 +92,8 @@ function getRoomTypeList(){
 
 
             }
-
-
         }
     });
-
-
 }
 
 
@@ -139,37 +147,7 @@ $("#checkAvailability").click(function () {
 
                         }
                     });
-
-
                 }
-
-
             }
         });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 });

@@ -82,7 +82,7 @@
           <div id="sub_nav" class="container " style="display: flex; justify-content: center;">
               <ul class="navbar-nav ">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">ROOMS</a>
+                  <a class="nav-link" href="/rooms">ROOMS</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">DINING</a>

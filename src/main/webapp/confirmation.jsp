@@ -94,6 +94,7 @@
   
 </nav>
   <!--Page content-->
+  <form>
     <div class="container-fluid top st_p_content">
         <div class="container ov1">
           <div class="row">
@@ -156,6 +157,35 @@
               </svg>
             </div>
             <div class="col-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="158" height="117" viewBox="0 0 158 117">
+                  <defs>
+                    <style>
+                      .cls1 {
+                        fill: #cdccc9;
+                      }
+                
+                      .cls-2 {
+                        font-size: 40px;
+                      }
+                
+                      .cls-2, .cls3 {
+                        font-family: SegoeUI-Light, Segoe UI;
+                        font-weight: 300;
+                      }
+                
+                      .cls3 {
+                        font-size: 20px;
+                      }
+                    </style>
+                  </defs>
+                  <g id="Group_16" data-name="Group 16" transform="translate(-497 -255)">
+                    <circle id="Ellipse_4" data-name="Ellipse 4" class="cls1" cx="42.5" cy="42.5" r="42.5" transform="translate(531 255)"/>
+                    <text id="_2" data-name="2" class="cls-2" transform="translate(574 314)"><tspan x="-10.303" y="0">3</tspan></text>
+                    <text id="ROOMS_OFFERS" data-name="ROOMS &amp; OFFERS" class="cls3" transform="translate(576 367)"><tspan x="-30" y="0">Details</tspan></text>
+                  </g>
+                </svg>
+              </div>
+            <div class="col-3">
               <svg xmlns="http://www.w3.org/2000/svg" width="152" height="117" viewBox="0 0 152 117">
                   <defs>
                     <style>
@@ -195,45 +225,12 @@
                       <circle class="cls-4" cx="42.5" cy="42.5" r="42.5"/>
                       <circle class="cls-5" cx="42.5" cy="42.5" r="42"/>
                     </g>
-                    <text id="_1" data-name="1" class="cls-2" transform="translate(574 314)"><tspan x="-11.504" y="0">3</tspan></text>
-                    <text id="ROOMS_OFFERS" data-name="ROOMS &amp; OFFERS" class="cls-3" transform="translate(576 367)"><tspan x="-45 " y="0">DETAILS</tspan></text>
+                    <text id="_1" data-name="1" class="cls-2" transform="translate(574 314)"><tspan x="-11.504" y="0">4</tspan></text>
+                    <text id="ROOMS_OFFERS" data-name="ROOMS &amp; OFFERS" class="cls-3" transform="translate(576 367)"><tspan x="-78.955" y="0">CONFIRMATION</tspan></text>
                   </g>
                 </svg>
           </div>
-            <div class="col-3">
-              <svg xmlns="http://www.w3.org/2000/svg" width="158" height="117" viewBox="0 0 158 117">
-                <defs>
-                  <style>
-                    .cls1 {
-                      fill: #cdccc9;
-                    }
-              
-                    .cls-2 {
-                      font-size: 40px;
-                    }
-              
-                    .cls-2, .cls3 {
-                      font-family: SegoeUI-Light, Segoe UI;
-                      font-weight: 300;
-                    }
-              
-                    .cls3 {
-                      font-size: 20px;
-                    }
-                  </style>
-                </defs>
-                <g id="Group_16" data-name="Group 16" transform="translate(-497 -255)">
-                  <circle id="Ellipse_4" data-name="Ellipse 4" class="cls1" cx="42.5" cy="42.5" r="42.5" transform="translate(531 255)"/>
-                  <text id="_2" data-name="2" class="cls-2" transform="translate(574 314)"><tspan x="-10.303" y="0">4</tspan></text>
-                  <text id="ROOMS_OFFERS" data-name="ROOMS &amp; OFFERS" class="cls3" transform="translate(576 367)"><tspan x="-78.955" y="0">CONFIRMATION</tspan></text>
-                </g>
-              </svg>
-            </div>
             
-            
-            <div class="row hs1">
-              <div class="col-12 "><h4>XYZ Galle Resort</h4></div>
-            </div>
           </div>
             <div class="row">
                 <div class="col-6">
@@ -259,7 +256,7 @@
                             <label class="form-check-label" for="flexRadioDefault2">
                               Credit Card
                             </label>
-                            <form>
+                            
                                 <div class="mb-3">
                                   <label for="exampleInputEmail1" class="form-label">Credit Card Number</label>
                                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -283,11 +280,11 @@
                                       <input type="text" class="hidden_input" >
                                       <!--Pass total price to this input field-->
                                       <!---->
-                                      <button class="button button1">CONFIRM BOOKING</button>
+                                      <button type="button" class="button button1" data-bs-toggle="modal" data-bs-target="#myModal">CONFIRM BOOKING</button>
                                       <P class=pg3>
                                         Confirmation will be sent to your email address
                                       </P>
-                            </form>
+                            
                           </div>
                     </div>
                     </div>
@@ -385,9 +382,33 @@
                 </div>
               </div>
             </div>
-            <!--Prefooter here-->
+            <!--Prefooter here--><!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Modal body -->
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-10">
+            <h5 class="cf_h5" style="text-align: center;">Hello UserName</h5>
+          </div>
+          <div class="col-2">
+            <button type="button" class="btn-close"  data-bs-dismiss="modal"></button>
+          </div>
+        </div>
+        <h6 class="cf_h6">To confirm your reservation please enter your password of xyz hotel account</h6>
+        <input type="password" class="form-control cfpw" placeholder="Password" required>
+        <input type="submit" class="form-control btn cfbn" value="Book Now" >
+      </div>
+
+    </div>
+  </div>
+</div>
         </div>
     </div>
+
+  </form>
+
     
 </body>
 </html>

@@ -108,3 +108,30 @@ padding-left: 35px;
 .hd h6{
     text-align: center;
  }
+
+
+ /* new */
+ 
+.cfpw,.cfbn{
+    margin-top: 20px;
+}
+.cfbn{
+    background-color: #B3A258;
+    color: white;
+}
+.cfcol{
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.cfcol h5,.cfcol h6{
+    margin-top: 10px;
+}
+.cffromrow{
+    margin-top: 50px !important;
+}
+.cf_h6,.cf_h5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bolder;
+}

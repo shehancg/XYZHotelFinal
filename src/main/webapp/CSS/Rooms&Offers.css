@@ -70,6 +70,24 @@ body{
     padding: 15px;
 }
 
+.rwone{
+    margin: 5px;
+   
+}
+
+.rw1{
+    background-color: #E1DFDF;
+}
+.rw2{
+ background-color: #F3ECEC ;
+}
+
+.checkHD{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .card-header1{
     background-color:#707070;
     padding: 5px;

@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="CSS/3.css">
+    <link rel="stylesheet" href="CSS/nav.css">
+    <link rel="stylesheet" href="CSS/prefooter.css">
+    <script src="Js/3.js"></script>
+</head>
+<body>
+   <!--Navigation Bar-->
+<nav class="navbar1 navbar-expand-sm fixed-top navbar-dark">
+
+  <div id="navcon1" class="container-fluid  bg_gray cf1">
+    
+    <div class="row">
+      <div class="col-4">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="col-4">
+        <a class="navbar-brand" href="#">XYZ Hotel</a>
+      </div>
+      <div class="col-4">
+        <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6"></div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+          <div class="row">
+            <div class="col lg_nv">
+              <a href="#" class="lg" >
+                <div class="row" data-bs-toggle="modal" data-bs-target="#myModal">
+                  <div class="col-3"><img src="SVG_icons/profile.svg"></div>
+                  <div class="col-9"><p>1stName</p></div>
+                </div></a>
+            </div>
+            <div class="col sp_nv">
+              <a href="#" class="sp" >
+              <div class="row" >
+                <div class="col-9"><p>LOG OUT</p></div>
+                <div class="col-3"><img src="SVG_icons/login.svg"></div>
+              </div>
+              </a>
+            </div>
+            
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+  <div id="navcon2" class="container-fluid bg_gray">
+    
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <div id="sub_nav" class="container " style="display: flex; justify-content: center;">
+          <ul class="navbar-nav ">
+            <li class="nav-item">
+              <a class="nav-link" href="#">ROOMS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">DINING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FESTIVE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SPA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">MEETING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">WEDDINGS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+  
+</nav>
+    <div class="container-fluid top st_p_content">
+        <div class="container ov1">
+          <div class="row">
+            <div class="col-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="158" height="117" viewBox="0 0 158 117">
+                    <defs>
+                      <style>
+                        .cls1 {
+                          fill: #cdccc9;
+                        }
+                  
+                        .cls-2 {
+                          font-size: 40px;
+                        }
+                  
+                        .cls-2, .cls3 {
+                          font-family: SegoeUI-Light, Segoe UI;
+                          font-weight: 300;
+                        }
+                  
+                        .cls3 {
+                          font-size: 20px;
+                        }
+                      </style>
+                    </defs>
+                    <g id="Group_16" data-name="Group 16" transform="translate(-497 -255)">
+                      <circle id="Ellipse_4" data-name="Ellipse 4" class="cls1" cx="42.5" cy="42.5" r="42.5" transform="translate(531 255)"/>
+                      <text id="_2" data-name="2" class="cls-2" transform="translate(574 314)"><tspan x="-10.303" y="0">1</tspan></text>
+                      <text id="ROOMS_OFFERS" data-name="ROOMS &amp; OFFERS" class="cls3" transform="translate(576 367)"><tspan x="-78.955" y="0">HOTEL &amp; DATES</tspan></text>
+                    </g>
+                  </svg>
+            </div>
+            <div class="col-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="158" height="117" viewBox="0 0 158 117">
+                <defs>
+                  <style>
+                    .cls1 {
+                      fill: #cdccc9;
+                    }
+              
+                    .cls-2 {
+                      font-size: 40px;
+                    }
+              
+                    .cls-2, .cls3 {
+                      font-family: SegoeUI-Light, Segoe UI;
+                      font-weight: 300;
+                    }
+              
+                    .cls3 {
+                      font-size: 20px;
+                    }
+                  </style>
+                </defs>
+                <g id="Group_16" data-name="Group 16" transform="translate(-497 -255)">
+                  <circle id="Ellipse_4" data-name="Ellipse 4" class="cls1" cx="42.5" cy="42.5" r="42.5" transform="translate(531 255)"/>
+                  <text id="_2" data-name="2" class="cls-2" transform="translate(574 314)"><tspan x="-10.303" y="0">2</tspan></text>
+                  <text id="ROOMS_OFFERS" data-name="ROOMS &amp; OFFERS" class="cls3" transform="translate(576 367)"><tspan x="-72" y="0">ROOMS &amp; OFFERS</tspan></text>
+                </g>
+              </svg>
+            </div>
+            <div class="col-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="152" height="117" viewBox="0 0 152 117">
+                  <defs>
+                    <style>
+                      .cls-11, .cls-3 {
+                        fill: #b3a258;
+                      }
+                
+                      .cls-11 {
+                        stroke: #fff;
+                      }
+                
+                      .cls-2 {
+                        fill: #fff;
+                        font-size: 40px;
+                      }
+                
+                      .cls-2, .cls-3 {
+                        font-family: SegoeUI-Bold, Segoe UI;
+                        font-weight: 700;
+                      }
+                
+                      .cls-3 {
+                        font-size: 20px;
+                      }
+                
+                      .cls-4 {
+                        stroke: none;
+                      }
+                
+                      .cls-5 {
+                        fill: none;
+                      }
+                    </style>
+                  </defs>
+                  <g id="Group_15" data-name="Group 15" transform="translate(-500 -255)">
+                    <g id="Ellipse_4" data-name="Ellipse 4" class="cls-11" transform="translate(531 255)">
+                      <circle class="cls-4" cx="42.5" cy="42.5" r="42.5"/>
+                      <circle class="cls-5" cx="42.5" cy="42.5" r="42"/>
+                    </g>
+                    <text id="_1" data-name="1" class="cls-2" transform="translate(574 314)"><tspan x="-11.504" y="0">3</tspan></text>
+                    <text id="ROOMS_OFFERS" data-name="ROOMS &amp; OFFERS" class="cls-3" transform="translate(576 367)"><tspan x="-45 " y="0">DETAILS</tspan></text>
+                  </g>
+                </svg>
+          </div>
+            <div class="col-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="158" height="117" viewBox="0 0 158 117">
+                <defs>
+                  <style>
+                    .cls1 {
+                      fill: #cdccc9;
+                    }
+              
+                    .cls-2 {
+                      font-size: 40px;
+                    }
+              
+                    .cls-2, .cls3 {
+                      font-family: SegoeUI-Light, Segoe UI;
+                      font-weight: 300;
+                    }
+              
+                    .cls3 {
+                      font-size: 20px;
+                    }
+                  </style>
+                </defs>
+                <g id="Group_16" data-name="Group 16" transform="translate(-497 -255)">
+                  <circle id="Ellipse_4" data-name="Ellipse 4" class="cls1" cx="42.5" cy="42.5" r="42.5" transform="translate(531 255)"/>
+                  <text id="_2" data-name="2" class="cls-2" transform="translate(574 314)"><tspan x="-10.303" y="0">4</tspan></text>
+                  <text id="ROOMS_OFFERS" data-name="ROOMS &amp; OFFERS" class="cls3" transform="translate(576 367)"><tspan x="-78.955" y="0">CONFIRMATION</tspan></text>
+                </g>
+              </svg>
+            </div>
+          </div>
+            <form>
+            <div class="container sdbox">
+                
+                <div class="row sdboxrw1">
+                    <div class="col-12 ">
+                        <h5>Your selection</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="container-fluid">
+                        <div class="row sdboxrw2 sdboxrw2padding">
+                            <hr>
+                            <div class="col-4">
+                                <img src="Image/3333.jpg" alt="" class="ftimg img-fluid">
+                            </div>
+        
+                            <div class="col-4">
+                                <h5>Premier Beach Access Room</h5>
+                                <ul>
+                                    <li>XYZ luxury accommodation</li>
+                                    <li>Daily breakfast</li>
+                                    <li>Freedom to adjust your plans with fewer conditions</li>
+                                </ul>
+                                <h6>Deposit Policy:</h6>
+                                <p>A deposit of LKR 25,000.00 will be charged to your 
+                                    credit card at the time of reservation. If no credit 
+                                    card is provided, a deposit of LKR 25,000.00 must be
+                                    made via bank transfer within 48 hours after making 
+                                    this reservation.</p>
+                            </div>
+                            <div class="col-4">
+                                <div class="row bill">
+                                    <b>Your Bocking Details</b>
+                                    <hr>
+                                    <b>CHECK-IN</b>
+                                    <p>Sun 12 Dec 2021</p>
+                                    <b>CHECK-OUT</b>
+                                    <p>Tue 14 Dec 2021</p>
+                                    <b>NIGHT(S) :</b>
+                                    <p>2 Nights</p>
+                                    <b>FOR :</b>
+                                    <p>2 Adults, 1 Rooms</p>
+                                    <hr>
+                                    <div class="col-5">
+                                      <p>Room : </p> 
+                                      <p>Taxes & Fees : </p> 
+                                      <p>Total room rate : </p> 
+                                    </div>
+                                    <div class="col-7 bill_p">
+                                      <p><b>LKR 50,000.00</b></p>
+                                      <p><b>LKR 10,000.00</b></p>
+                                      <p><b>LKR 50,000.00</b></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="container-fluid">
+                        <div class="row sdboxrw2 sdboxrw2padding">
+                            <hr>
+                            <div class="col-4">
+                                <img src="Image/3333.jpg" alt="" class="ftimg img-fluid">
+                            </div>
+        
+                            <div class="col-4">
+                                <h5>Premier Beach Access Room</h5>
+                                <ul>
+                                    <li>XYZ luxury accommodation</li>
+                                    <li>Daily breakfast</li>
+                                    <li>Freedom to adjust your plans with fewer conditions</li>
+                                </ul>
+                                <h6>Deposit Policy:</h6>
+                                <p>A deposit of LKR 25,000.00 will be charged to your 
+                                    credit card at the time of reservation. If no credit 
+                                    card is provided, a deposit of LKR 25,000.00 must be
+                                    made via bank transfer within 48 hours after making 
+                                    this reservation.</p>
+                            </div>
+                            <div class="col-4">
+                                <div class="row bill">
+                                  <b>Your Bocking Details</b>
+                                  <hr>
+                                  <b>CHECK-IN</b>
+                                  <p>Sun 12 Dec 2021</p>
+                                  <b>CHECK-OUT</b>
+                                  <p>Tue 14 Dec 2021</p>
+                                  <b>NIGHT(S) :</b>
+                                  <p>2 Nights</p>
+                                  <b>FOR :</b>
+                                  <p>2 Adults, 1 Rooms</p>
+                                  <hr>
+                                  <div class="col-5">
+                                    <p>Room : </p> 
+                                    <p>Taxes & Fees : </p> 
+                                    <p>Total room rate : </p> 
+                                  </div>
+                                  <div class="col-7 bill_p">
+                                    <p><b>LKR 50,000.00</b></p>
+                                    <p><b>LKR 10,000.00</b></p>
+                                    <p><b>LKR 50,000.00</b></p>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="container tp_container">
+                  <div class="row">
+                      <div class="col-6">
+                          <b>Important Note</b>
+                          <p>
+    
+                              We are a certified Safe and Secure Hotel. We look forward to welcoming you very soon. 
+                              In the interests of protecting the health and safety of all our guests, please see our booking 
+                              requirements below.<br><br>
+      
+                              The below procedures apply to international tourists visiting Sri Lanka under a tourist visa, 
+                              and optional for dual citizens, valid resident visa holders and Sri Lankan citizens who opt to 
+                              come under the tourism route.<br></p>
+                              <p id="RM_P" class="to-be-changed">
+                              1.0 Procedure for Fully Vaccinated Travellers <br>
+      
+                              Applies to International Tourists visiting Sri Lanka under tourist visa. No prior approval 
+                              required from the Ministry of Foreign Affairs or Civil Aviation Authority. There is no 
+                              minimum duration of stay in Sri Lanka.<br><br>
+      
+                              Travellers who have completed 14 days after the recommended doses of COVID-19 
+                              vaccination and arriving with a negative COVID-19 PCR Report done within 72 hours of 
+                              embarkation will be considered as fully vaccinated travellers. Any vaccination type accepted 
+                              by the country of origin will be accepted.<br><br>
+      
+                              This protocol is applicable for travellers not arriving from or with no travel history 
+                              (including transit) to any travel restricted country in the past 14 days.<br>
+      
+                              1.1 Prior to boarding, travellers are required to:<br>
+      
+                              Have a valid tourist visa. All visas must be applied online. Visit www.eta.gov.lk
+                              Have done a negative PCR test within 72 hours prior to embarkation 
+                              (Children below 2 years are exempted).<br><br>
+      
+                              Note:<br>
+      
+                              Fully vaccinated travellers are EXEMPTED from obtaining the mandatory COVID-19 Local 
+                              Insurance cover. However, travellers should ensure that they have a comprehensive travel 
+                              insurance that will cover health and other expenses related to COVID-19 should there be a 
+                              need as Government of Sri Lanka will not bear any costs resulting.<br><br>
+      
+                              Fully vaccinated travellers if accompanied by not-vaccinated/not-fully vaccinated children 
+                              of 12-18 years, pay for on-arrival PCR test at USD 40 per test. Travelers can pay for PCR 
+                              test at the Ministry of Health approved laboratory established at Bandaranaike 
+                              International Airport (BIA) or any other MOH approved laboratory. Also, travellers can visit 
+                              www.visitsrilanka.gov.lk to pay in advance.<br><br>
+      
+                              Fully vaccinated travellers if accompanied by not-vaccinated/not-fully vaccinated children, 
+                              (all age groups) ensure that the comprehensive travel insurance is extended to cover the 
+                              children adequately as the Government of Sri Lanka will not bear any costs resulting.
+                              1.2 Please produce the following on arrival at the airport:<br><br>
+      
+                              Negative COVID-19 PCR report (English) taken within 72 hours prior to embarkation 
+                              (Applicable to all travellers excluding children below 2 years).<br><br>
+                              Original vaccination certificate / card (together with a certified copy of English language 
+                              translation if the certificate / card is not in English or if relevant data are not indicated in 
+                              English).<br><br>
+                              Completed Health Declaration Form. A separate form should be submitted for each of the 
+                              accompanying children (if any).<br><br>
+                              1.3 On-arrival PCR tests<br><br>
+      
+                              No on-arrival PCR test for “Fully Vaccinated” travellers.<br><br>
+                              Not-vaccinated Children:<br><br>
+                              No on-arrival PCR test for Not-vaccinated children up to 12 years and they will be allowed
+                              to travel with their parents.<br><br>
+                              Not-vaccinated children of 12 -18 years need to undergo on-arrival PCR testing at the 
+                              Ministry of Health approved laboratory at BIA or at a Safe & Secure Certified Level 1 hotel.
+                              If the Day 1 PCR report is negative, they will be allowed to travel with their parents.
+                              No 2nd PCR for fully vaccinated travellers.<br><br>
+                              1.4 Accommodation & Airport transfers<br><br>
+      
+                              Fully vaccinated travellers are allowed to make their own arrangements for 
+                              accommodation, airport transfers and local transportation. However, advised to use safe 
+                              and secure certified accommodations and travel agents to ensure their health and safety.
+                              Please visit www.srilanka.travel/helloagain for the most updated travel and tourism 
+                              updates from the Sri Lankan Government as well as procedures for Not-Vaccinated / 
+                              Not-Fully-Vaccinated Travellers & Covid-19 Recovered Travellers.<br><br>
+      
+       
+      
+                              ABOUT YOUR DIRECT BOOKING BENEFITS (Only when applicable)
+      
+                              - Resort credit is valid for the entirety of your stay and can be redeemed at any restaurant, 
+                              bar or at XYZ Spa (only for stays of 2+ nights in Rooms)
+                              - Couple Massage can be redeem only one time per stay (only for stays of 2+ nights in a 
+                              Villa)
+      
+                              Blackout dates may apply. Reservations made using any TIR/Corporate/Group Codes, 
+                              Resident rates or Team Member rates are not eligible for the Direct Booking Benefits.
+                          </p>
+                          <p id="IN_RM" class="to-be-changed_RM" onclick="RM()"><b>Read More</b></p>
+                          <p id="IN_RL" class="to-be-changed_RL" onclick="RL()"><b>Read Less</b></p>
+                      </div>
+                      <div class="col-6">
+                          <div class="row">
+                              <div class="col-6">
+                                  <h3 class="tp">TOTAL PRICE</h3>
+                              </div>
+                              <div class="col-6 tp_price">
+                                  <h3> LKR 120,000.00</h3>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                <div class="col"></div>
+                <div class="col">
+                  
+                </div>
+                <div class="col">
+                  <input type="submit" class="form-control btn nextbtn" value="Next" >
+                </div>
+              </div>
+            </div>
+            </form>
+            <!--Prefooter here-->
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <hr>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 hd">
+                  <h6>WHY BOOK ON THE OFFICIAL SITE</h6>
+                </div>
+              </div>
+              <div class="row iconsvg">
+                <div class="col-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="80" height="48" viewBox="0 0 80 48">
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: #128305;
+                        }
+                      </style>
+                    </defs>
+                    <path id="Icon_awesome-bed" data-name="Icon awesome-bed" class="cls-1" d="M22,28.5a10,10,0,1,0-10-10A10.012,10.012,0,0,0,22,28.5Zm44-16H38a2,2,0,0,0-2,2v18H8V6.5a2,2,0,0,0-2-2H2a2,2,0,0,0-2,2v44a2,2,0,0,0,2,2H6a2,2,0,0,0,2-2v-6H72v6a2,2,0,0,0,2,2h4a2,2,0,0,0,2-2v-24A14,14,0,0,0,66,12.5Z" transform="translate(0 -4.5)"/>
+                  </svg>
+                  <p>Widest Choice of Rooms & Offers</p>
+                </div>
+                <div class="col-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="60" height="52.5" viewBox="0 0 60 52.5">
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: #128305;
+                        }
+                      </style>
+                    </defs>
+                    <path id="Icon_awesome-gift" data-name="Icon awesome-gift" class="cls-1" d="M3.75,51A3.746,3.746,0,0,0,7.5,54.75H26.25V36H3.75Zm30,3.75H52.5A3.746,3.746,0,0,0,56.25,51V36H33.75Zm22.5-37.5H51.316A10.218,10.218,0,0,0,52.5,12.563,10.328,10.328,0,0,0,42.188,2.25c-4.875,0-8.027,2.5-12.07,8-4.043-5.508-7.2-8-12.07-8A10.328,10.328,0,0,0,7.734,12.563,10.074,10.074,0,0,0,8.918,17.25H3.75A3.746,3.746,0,0,0,0,21v9.375A1.881,1.881,0,0,0,1.875,32.25h56.25A1.881,1.881,0,0,0,60,30.375V21A3.746,3.746,0,0,0,56.25,17.25Zm-38.215,0a4.688,4.688,0,0,1,0-9.375c2.332,0,4.055.387,10.09,9.375Zm24.152,0H32.1c6.023-8.965,7.7-9.375,10.09-9.375a4.688,4.688,0,0,1,0,9.375Z" transform="translate(0 -2.25)"/>
+                  </svg>
+                  <p>Customized Stays</p>
+                </div>
+                <div class="col-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="64" viewBox="0 0 40 64">
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: #128305;
+                        }
+                      </style>
+                    </defs>
+                    <path id="Icon_awesome-mobile-alt" data-name="Icon awesome-mobile-alt" class="cls-1" d="M34,0H6A6,6,0,0,0,0,6V58a6,6,0,0,0,6,6H34a6,6,0,0,0,6-6V6A6,6,0,0,0,34,0ZM20,60a4,4,0,1,1,4-4A4,4,0,0,1,20,60ZM34,46.5A1.5,1.5,0,0,1,32.5,48H7.5A1.5,1.5,0,0,1,6,46.5V7.5A1.5,1.5,0,0,1,7.5,6h25A1.5,1.5,0,0,1,34,7.5Z"/>
+                  </svg>
+                 <p> Online Check-in</p>
+                </div>
+                <div class="col-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+                    <defs>
+                      <style>
+                        .cls-1 {
+                          fill: #128305;
+                        }
+                      </style>
+                    </defs>
+                    <path id="Icon_metro-airplane" data-name="Icon metro-airplane" class="cls-1" d="M47.571,39.426,36.859,28.714,62.571,9.428l-7.5-7.5L22.93,14.786,12.811,4.666C9.894,1.75,5.821,1.051,3.758,3.113S2.395,9.25,5.312,12.166L15.43,22.284,2.571,54.428l7.5,7.5L29.359,36.213,40.071,46.926v15h7.5l3.75-11.249,11.249-3.75v-7.5h-15Z" transform="translate(-2.571 -1.928)"/>
+                  </svg>
+                  <p>Airline Miles for Every Stay</p>
+                </div>
+              </div>
+            </div>
+            <!--Prefooter here-->
+        </div>
+    </div>
+</body>
+</html>
