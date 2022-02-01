@@ -13,9 +13,10 @@
     <link rel="stylesheet" href="CSS/Rooms&Offers.css">
     <link rel="stylesheet" href="CSS/nav.css">
     <script src="Js/nav.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 
     <link rel="stylesheet" href="CSS/prefooter.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
       <!--Navigation Bar-->
@@ -306,7 +307,7 @@
                             </div>
                           </div>
                           <div class="col-12 col-sm-12 col-md-5 col-lg-2 col-xl-2 col-xxl-2 rw1">
-                            <input type="submit" class="form-control btn btn-primary checkHD" value="Check">
+                            <input id="checkAvailability" type="button" class="form-control btn btn-primary checkHD" value="Check">
                           </div>
                         </div>
                         </form>  
@@ -315,7 +316,7 @@
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5"></div>
             </div>
-      <div id="roomType">
+      <div id="availableRoomTable">
 
       </div>>
 
@@ -496,7 +497,7 @@
         </div>
     </div>
 
-      <script src="Js/availableRooms.js"></script>
+      <script src="Js/page/availableRooms.js"></script>
 
 </body>
 </html>

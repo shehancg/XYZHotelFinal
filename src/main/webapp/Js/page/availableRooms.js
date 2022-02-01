@@ -57,7 +57,7 @@ function table(dataArray,roomsArray) {
     console.log(dataArray);
     console.log(roomsArray);
 
-
+    let newhtmlstring="";
 
     $.each(dataArray, function (dataArrayIndex,dataArrayValue){
 
@@ -79,10 +79,9 @@ function table(dataArray,roomsArray) {
       //  let  htmlString =  "";
        // htmlString = htmlString + tableRows;
 
-        let newhtmlstring="<div class=\"container sdbox\">\n" +
+        let htmlstring="<div class=\"container sdbox\">\n" +
             "            <div class=\"row sdboxrw1\">\n" +
-            "                <div class=\"col-12\">\n" +
-            "                    Premiere ocean view room\n" +
+            "                <div class=\"col-12\"><h6 style='padding-top: 4px;text-transform:uppercase'>"+dataArrayValue.roomTypeName+"</h6>\n"+
             "                </div>\n" +
             "            </div>\n" +
             "            <div class=\"row sdboxrw2\">\n" +
@@ -152,20 +151,20 @@ function table(dataArray,roomsArray) {
             "                                    Standard Rate\n" +
             "                                </div>\n" +
             "                                <div class=\"card-body1\">\n" +
-            "                                    <h5 class=\"card-title\">LKR 25,000</h5>\n" +
+            "                                    <h5 class=\"card-title\"><h5 style='color:darkgoldenrod'>"+dataArrayValue.price+"</h5></h5>\n" +
             "                                    <p class=\"card-text\">Per room per night</p>\n" +
             "                                </div>\n" +
             "                            </div>\n" +
             "                        </div>\n" +
             "                    </div>\n" +
             "                    <div class=\"row\">\n" +
-            "                        <h5>Available</h5>\n" +
+            "                        <h5>Available Rooms  <h5 style='color:darkgoldenrod'>"+roomCount+"</h5></h5>\n" +
             "                        <h6>How many Rooms do you want?</h6>\n" +
             "                        <div class=\"col\">\n" +
             "                            Rooms\n" +
             "                        </div>\n" +
             "                        <div class=\"col\">\n" +
-            "                            <input type=\"number\" class=\"form-control\" value=\"0\">\n" +
+            "                            <input type=\"number\" class=\"form-control\" value=\"0\" aria-valuemax=\"5\">\n" +
             "                        </div>\n" +
             "                    </div>\n" +
             "                </div>\n" +
@@ -173,13 +172,12 @@ function table(dataArray,roomsArray) {
             "        </div>";
 
 
-
+        newhtmlstring =newhtmlstring+htmlstring;
 
     });
 
 
-
-
+    $("#availableRoomTable").append(newhtmlstring);
 
 
 
