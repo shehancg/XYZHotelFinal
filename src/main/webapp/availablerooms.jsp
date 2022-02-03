@@ -314,6 +314,8 @@
                         </div>
                     </div>
                 </div>
+               <h1>total bill</h1>
+               <h1 id="totalBill">total bill</h1>
                 <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5"></div>
             </div>
       <div id="availableRoomTable">
