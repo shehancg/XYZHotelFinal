@@ -7,6 +7,7 @@ import com.example.xyzhotelfinal.service.ReservationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.transaction.Synchronization;
 import java.time.LocalDate;
 import java.util.List;
 
@@ -22,7 +23,7 @@ public class ReservationServiceImpl implements ReservationService {
     }
 
     @Override
-    public ReservationObj save(ReservationObj reservationObj) {
+    public synchronized ReservationObj save(ReservationObj reservationObj) {
         return reservationRepository.save(reservationObj);
     }
 
