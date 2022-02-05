@@ -39,11 +39,11 @@
               <a href="#" class="lg" >
                 <div class="row" data-bs-toggle="modal" data-bs-target="#myModal">
                   <div class="col-3"><img src="SVG_icons/profile.svg"></div>
-                  <div class="col-9"><p>SHEHAN</p></div>
+                  <div class="col-9"><p style="text-transform: uppercase">${fName}</p></div>
                 </div></a>
             </div>
             <div class="col sp_nv">
-              <a href="#" class="sp" >
+              <a href="/logOut" class="sp" >
               <div class="row" >
                 <div class="col-9"><p>LOGOUT</p></div>
                 <div class="col-3"><img src="SVG_icons/login.svg"></div>
@@ -230,9 +230,9 @@
             <div class="row cffromrow">
                 
                 <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4"></div>
-                <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 cfcol">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 cfcol" style="border-color: #b3a258;border-style: solid">
                 <form>
-                    <h5 class="cf_h5">Hello UserName</h5>
+                    <h5 class="cf_h5" style="text-transform: uppercase">Hello ${fName}</h5>
                     <h6 class="cf_h6">Thanks for choosing XYZ Hotels your Reservation was Placed Succesfully</h6>
                     <hr>
 

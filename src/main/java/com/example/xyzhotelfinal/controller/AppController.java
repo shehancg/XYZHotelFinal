@@ -25,32 +25,37 @@ public class AppController {
     public String availabledates(UserObj userObj, Model model, HttpSession session){
         String userId = (String) session.getAttribute("userId");
         String userName = (String) session.getAttribute("username");
-        model.addAttribute("fName",session.getAttribute(userName));
+//        model.addAttribute("fName",session.getAttribute(userName));
 //        model.addAttribute("fName", userObj.getfName());
 //       return "availabledates";
 
         if(userId == null){
             return "redirect:/";
         }
+        model.addAttribute("fName",session.getAttribute("username"));
         return "availabledates";
 
     }
 
     @GetMapping("/availablerooms")
-    public String availablerooms(HttpSession session){
+    public String availablerooms(Model model,HttpSession session){
         String userId = (String) session.getAttribute("userId");
+        String userName = (String) session.getAttribute("username");
         if(userId == null){
             return "redirect:/";
         }
+        model.addAttribute("fName",session.getAttribute("username"));
         return "availablerooms";
     }
 
     @GetMapping("/mybookings")
-    public String myBookings(HttpSession session){
+    public String myBookings(Model model,HttpSession session){
         String userId = (String) session.getAttribute("userId");
+        String userName = (String) session.getAttribute("username");
         if(userId == null){
             return "redirect:/";
         }
+        model.addAttribute("fName",session.getAttribute("username"));
         return "mybookings";
     }
 
@@ -60,20 +65,24 @@ public class AppController {
     }
 
     @GetMapping("/details")
-    public String details(HttpSession session){
+    public String details(Model model,HttpSession session){
         String userId = (String) session.getAttribute("userId");
+        String userName = (String) session.getAttribute("username");
         if(userId == null){
             return "redirect:/";
         }
+        model.addAttribute("fName",session.getAttribute("username"));
         return "details";
     }
 
     @GetMapping("/confirmation")
-    public String confirmation(HttpSession session){
+    public String confirmation(Model model,HttpSession session){
         String userId = (String) session.getAttribute("userId");
+        String userName = (String) session.getAttribute("username");
         if(userId == null){
             return "redirect:/";
         }
+        model.addAttribute("fName",session.getAttribute("username"));
         return "confirmation";
     }
 

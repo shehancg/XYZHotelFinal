@@ -42,11 +42,11 @@
               <a href="#" class="lg" >
                 <div class="row" data-bs-toggle="modal" data-bs-target="#myModal">
                   <div class="col-3"><img src="SVG_icons/profile.svg"></div>
-                  <div class="col-9"><p>Shehan</p></div>
+                  <div class="col-9"><p style="text-transform: uppercase">${fName}</p></div>
                 </div></a>
             </div>
             <div class="col sp_nv">
-              <a href="#" class="sp" >
+              <a href="/logOut" class="sp" >
               <div class="row" >
                 <div class="col-9"><p>LOGOUT</p></div>
                 <div class="col-3"><img src="SVG_icons/login.svg"></div>
@@ -287,7 +287,7 @@
                           <div class="col-6 col-sm-6 col-md-5 col-lg-5 col-xl-5 col-xxl-5 rw2">
                             <div class="row">
                               <div class="col">
-                                <label for="checkIn" class="in">Check in</label>
+                                <label for="checkIn" class="in">Check In</label>
                               </div>
                               <div class="col">
                                 <input id="checkin" type="date" class="form-control">

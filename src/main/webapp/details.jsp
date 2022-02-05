@@ -42,11 +42,11 @@
               <a href="#" class="lg" >
                 <div class="row" data-bs-toggle="modal" data-bs-target="#myModal">
                   <div class="col-3"><img src="SVG_icons/profile.svg"></div>
-                  <div class="col-9"><p>SHEHAN</p></div>
+                  <div class="col-9"><p style="text-transform: uppercase">${fName}</p></div>
                 </div></a>
             </div>
             <div class="col sp_nv">
-              <a href="#" class="sp" >
+              <a href="/logOut" class="sp" >
               <div class="row" >
                 <div class="col-9"><p>LOGOUT</p></div>
                 <div class="col-3"><img src="SVG_icons/login.svg"></div>
@@ -250,6 +250,7 @@
                                 <h4>PLATINUM ROOMS</h4>
                                 <br>
                                 <hr>
+                                <br>
                                 <br>
                                 <br>
                                 <br>
