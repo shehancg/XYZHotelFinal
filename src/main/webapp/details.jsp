@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- Latest compiled and minified CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Latest compiled JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="CSS/3.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/2efa985151.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/Details.css">
     <link rel="stylesheet" href="CSS/nav.css">
     <link rel="stylesheet" href="CSS/prefooter.css">
-    <script src="Js/3.js"></script>
+    <script src="nav.js"></script>
+    <title>Document</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
    <!--Navigation Bar-->
@@ -39,13 +42,13 @@
               <a href="#" class="lg" >
                 <div class="row" data-bs-toggle="modal" data-bs-target="#myModal">
                   <div class="col-3"><img src="SVG_icons/profile.svg"></div>
-                  <div class="col-9"><p>1stName</p></div>
+                  <div class="col-9"><p>SHEHAN</p></div>
                 </div></a>
             </div>
             <div class="col sp_nv">
               <a href="#" class="sp" >
               <div class="row" >
-                <div class="col-9"><p>LOG OUT</p></div>
+                <div class="col-9"><p>LOGOUT</p></div>
                 <div class="col-3"><img src="SVG_icons/login.svg"></div>
               </div>
               </a>
@@ -90,6 +93,7 @@
   </div>
   
 </nav>
+  <!--Page content-->
     <div class="container-fluid top st_p_content">
         <div class="container ov1">
           <div class="row">
@@ -225,232 +229,48 @@
                 </g>
               </svg>
             </div>
-          </div>
-            <form>
-            <div class="container sdbox">
-                
-                <div class="row sdboxrw1">
-                    <div class="col-12 ">
-                        <h5>Your selection</h5>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="container-fluid">
-                        <div class="row sdboxrw2 sdboxrw2padding">
-                            <hr>
-                            <div class="col-4">
-                                <img src="Image/3333.jpg" alt="" class="ftimg img-fluid">
-                            </div>
-        
-                            <div class="col-4">
-                                <h5>Premier Beach Access Room</h5>
-                                <ul>
-                                    <li>XYZ luxury accommodation</li>
-                                    <li>Daily breakfast</li>
-                                    <li>Freedom to adjust your plans with fewer conditions</li>
-                                </ul>
-                                <h6>Deposit Policy:</h6>
-                                <p>A deposit of LKR 25,000.00 will be charged to your 
-                                    credit card at the time of reservation. If no credit 
-                                    card is provided, a deposit of LKR 25,000.00 must be
-                                    made via bank transfer within 48 hours after making 
-                                    this reservation.</p>
-                            </div>
-                            <div class="col-4">
-                                <div class="row bill">
-                                    <b>Your Bocking Details</b>
-                                    <hr>
-                                    <b>CHECK-IN</b>
-                                    <p>Sun 12 Dec 2021</p>
-                                    <b>CHECK-OUT</b>
-                                    <p>Tue 14 Dec 2021</p>
-                                    <b>NIGHT(S) :</b>
-                                    <p>2 Nights</p>
-                                    <b>FOR :</b>
-                                    <p>2 Adults, 1 Rooms</p>
-                                    <hr>
-                                    <div class="col-5">
-                                      <p>Room : </p> 
-                                      <p>Taxes & Fees : </p> 
-                                      <p>Total room rate : </p> 
-                                    </div>
-                                    <div class="col-7 bill_p">
-                                      <p><b>LKR 50,000.00</b></p>
-                                      <p><b>LKR 10,000.00</b></p>
-                                      <p><b>LKR 50,000.00</b></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="container-fluid">
-                        <div class="row sdboxrw2 sdboxrw2padding">
-                            <hr>
-                            <div class="col-4">
-                                <img src="Image/3333.jpg" alt="" class="ftimg img-fluid">
-                            </div>
-        
-                            <div class="col-4">
-                                <h5>Premier Beach Access Room</h5>
-                                <ul>
-                                    <li>XYZ luxury accommodation</li>
-                                    <li>Daily breakfast</li>
-                                    <li>Freedom to adjust your plans with fewer conditions</li>
-                                </ul>
-                                <h6>Deposit Policy:</h6>
-                                <p>A deposit of LKR 25,000.00 will be charged to your 
-                                    credit card at the time of reservation. If no credit 
-                                    card is provided, a deposit of LKR 25,000.00 must be
-                                    made via bank transfer within 48 hours after making 
-                                    this reservation.</p>
-                            </div>
-                            <div class="col-4">
-                                <div class="row bill">
-                                  <b>Your Bocking Details</b>
-                                  <hr>
-                                  <b>CHECK-IN</b>
-                                  <p>Sun 12 Dec 2021</p>
-                                  <b>CHECK-OUT</b>
-                                  <p>Tue 14 Dec 2021</p>
-                                  <b>NIGHT(S) :</b>
-                                  <p>2 Nights</p>
-                                  <b>FOR :</b>
-                                  <p>2 Adults, 1 Rooms</p>
-                                  <hr>
-                                  <div class="col-5">
-                                    <p>Room : </p> 
-                                    <p>Taxes & Fees : </p> 
-                                    <p>Total room rate : </p> 
-                                  </div>
-                                  <div class="col-7 bill_p">
-                                    <p><b>LKR 50,000.00</b></p>
-                                    <p><b>LKR 10,000.00</b></p>
-                                    <p><b>LKR 50,000.00</b></p>
-                                  </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                </div>
-                <div class="container tp_container">
-                  <div class="row">
-                      <div class="col-6">
-                          <b>Important Note</b>
-                          <p>
-    
-                              We are a certified Safe and Secure Hotel. We look forward to welcoming you very soon. 
-                              In the interests of protecting the health and safety of all our guests, please see our booking 
-                              requirements below.<br><br>
-      
-                              The below procedures apply to international tourists visiting Sri Lanka under a tourist visa, 
-                              and optional for dual citizens, valid resident visa holders and Sri Lankan citizens who opt to 
-                              come under the tourism route.<br></p>
-                              <p id="RM_P" class="to-be-changed">
-                              1.0 Procedure for Fully Vaccinated Travellers <br>
-      
-                              Applies to International Tourists visiting Sri Lanka under tourist visa. No prior approval 
-                              required from the Ministry of Foreign Affairs or Civil Aviation Authority. There is no 
-                              minimum duration of stay in Sri Lanka.<br><br>
-      
-                              Travellers who have completed 14 days after the recommended doses of COVID-19 
-                              vaccination and arriving with a negative COVID-19 PCR Report done within 72 hours of 
-                              embarkation will be considered as fully vaccinated travellers. Any vaccination type accepted 
-                              by the country of origin will be accepted.<br><br>
-      
-                              This protocol is applicable for travellers not arriving from or with no travel history 
-                              (including transit) to any travel restricted country in the past 14 days.<br>
-      
-                              1.1 Prior to boarding, travellers are required to:<br>
-      
-                              Have a valid tourist visa. All visas must be applied online. Visit www.eta.gov.lk
-                              Have done a negative PCR test within 72 hours prior to embarkation 
-                              (Children below 2 years are exempted).<br><br>
-      
-                              Note:<br>
-      
-                              Fully vaccinated travellers are EXEMPTED from obtaining the mandatory COVID-19 Local 
-                              Insurance cover. However, travellers should ensure that they have a comprehensive travel 
-                              insurance that will cover health and other expenses related to COVID-19 should there be a 
-                              need as Government of Sri Lanka will not bear any costs resulting.<br><br>
-      
-                              Fully vaccinated travellers if accompanied by not-vaccinated/not-fully vaccinated children 
-                              of 12-18 years, pay for on-arrival PCR test at USD 40 per test. Travelers can pay for PCR 
-                              test at the Ministry of Health approved laboratory established at Bandaranaike 
-                              International Airport (BIA) or any other MOH approved laboratory. Also, travellers can visit 
-                              www.visitsrilanka.gov.lk to pay in advance.<br><br>
-      
-                              Fully vaccinated travellers if accompanied by not-vaccinated/not-fully vaccinated children, 
-                              (all age groups) ensure that the comprehensive travel insurance is extended to cover the 
-                              children adequately as the Government of Sri Lanka will not bear any costs resulting.
-                              1.2 Please produce the following on arrival at the airport:<br><br>
-      
-                              Negative COVID-19 PCR report (English) taken within 72 hours prior to embarkation 
-                              (Applicable to all travellers excluding children below 2 years).<br><br>
-                              Original vaccination certificate / card (together with a certified copy of English language 
-                              translation if the certificate / card is not in English or if relevant data are not indicated in 
-                              English).<br><br>
-                              Completed Health Declaration Form. A separate form should be submitted for each of the 
-                              accompanying children (if any).<br><br>
-                              1.3 On-arrival PCR tests<br><br>
-      
-                              No on-arrival PCR test for “Fully Vaccinated” travellers.<br><br>
-                              Not-vaccinated Children:<br><br>
-                              No on-arrival PCR test for Not-vaccinated children up to 12 years and they will be allowed
-                              to travel with their parents.<br><br>
-                              Not-vaccinated children of 12 -18 years need to undergo on-arrival PCR testing at the 
-                              Ministry of Health approved laboratory at BIA or at a Safe & Secure Certified Level 1 hotel.
-                              If the Day 1 PCR report is negative, they will be allowed to travel with their parents.
-                              No 2nd PCR for fully vaccinated travellers.<br><br>
-                              1.4 Accommodation & Airport transfers<br><br>
-      
-                              Fully vaccinated travellers are allowed to make their own arrangements for 
-                              accommodation, airport transfers and local transportation. However, advised to use safe 
-                              and secure certified accommodations and travel agents to ensure their health and safety.
-                              Please visit www.srilanka.travel/helloagain for the most updated travel and tourism 
-                              updates from the Sri Lankan Government as well as procedures for Not-Vaccinated / 
-                              Not-Fully-Vaccinated Travellers & Covid-19 Recovered Travellers.<br><br>
-      
-       
-      
-                              ABOUT YOUR DIRECT BOOKING BENEFITS (Only when applicable)
-      
-                              - Resort credit is valid for the entirety of your stay and can be redeemed at any restaurant, 
-                              bar or at XYZ Spa (only for stays of 2+ nights in Rooms)
-                              - Couple Massage can be redeem only one time per stay (only for stays of 2+ nights in a 
-                              Villa)
-      
-                              Blackout dates may apply. Reservations made using any TIR/Corporate/Group Codes, 
-                              Resident rates or Team Member rates are not eligible for the Direct Booking Benefits.
-                          </p>
-                          <p id="IN_RM" class="to-be-changed_RM" onclick="RM()"><b>Read More</b></p>
-                          <p id="IN_RL" class="to-be-changed_RL" onclick="RL()"><b>Read Less</b></p>
-                      </div>
-                      <div class="col-6">
-                          <div class="row">
-                              <div class="col-6">
-                                  <h3 class="tp">TOTAL PRICE</h3>
-                              </div>
-                              <div class="col-6 tp_price">
-                                  <h3> LKR 120,000.00</h3>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              <div class="row">
-                <div class="col"></div>
-                <div class="col">
-                  
-                </div>
-                <div class="col">
-                  <input type="submit" class="form-control btn nextbtn" value="Next" >
-                </div>
-              </div>
+            
+            
+            <div class="row hs1">
+              <div class="col-12 "><h4>Payment Details</h4></div>
             </div>
-            </form>
+          </div>
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-5">
+                    <div class="container-fluid">
+                        <div class="row formrw3">
+                            Your Selection
+                        </div>
+                        
+                        <div class="row formrw4">
+                            <div class="col-7">
+                                <h4>GOLD ROOMS</h4><br>
+                                <h4>SILVER ROOMS</h4><br>
+                                <h4>PLATINUM ROOMS</h4>
+                                <br>
+                                <hr>
+                                <br>
+                                <br>
+                                <br>
+                               <p class="pg"> Total Price </p>
+                            </div>
+                            <div class="col-5">
+                                <h4 id="goldBill"> </h4><br>
+                                <h4 id="silverBill"> </h4><br>
+                                <h4 id="platinumBill"> </h4><br>
+                            <hr>
+                            <br>
+                                <br>
+                                <br>
+                           <p class="pg" id="totalBill"> 60 000 LKR </p>
+
+                            </div>
+                        </div>
+                        <button class="button button1" id="checkOutBtn">CONFIRM BOOKING</button>
+                    </div>
+                </div>
+            </div>
             <!--Prefooter here-->
             <div class="container">
               <div class="row">
@@ -521,5 +341,6 @@
             <!--Prefooter here-->
         </div>
     </div>
+   <script src="Js/page/roomBillDetails.js"></script>
 </body>
 </html>

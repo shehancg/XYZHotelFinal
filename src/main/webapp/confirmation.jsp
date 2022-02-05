@@ -4,22 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <title>Document</title>
     <!-- Latest compiled and minified CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://kit.fontawesome.com/2efa985151.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="CSS/Details.css">
+    <link rel="stylesheet" href="CSS/confirmation.css">
     <link rel="stylesheet" href="CSS/nav.css">
     <link rel="stylesheet" href="CSS/prefooter.css">
     <script src="nav.js"></script>
-    <title>Document</title>
-    
-    
 </head>
 <body>
-   <!--Navigation Bar-->
+     <!--Navigation Bar-->
 <nav class="navbar1 navbar-expand-sm fixed-top navbar-dark">
 
   <div id="navcon1" class="container-fluid  bg_gray cf1">
@@ -42,13 +39,13 @@
               <a href="#" class="lg" >
                 <div class="row" data-bs-toggle="modal" data-bs-target="#myModal">
                   <div class="col-3"><img src="SVG_icons/profile.svg"></div>
-                  <div class="col-9"><p>1stName</p></div>
+                  <div class="col-9"><p>SHEHAN</p></div>
                 </div></a>
             </div>
             <div class="col sp_nv">
               <a href="#" class="sp" >
               <div class="row" >
-                <div class="col-9"><p>LOG OUT</p></div>
+                <div class="col-9"><p>LOGOUT</p></div>
                 <div class="col-3"><img src="SVG_icons/login.svg"></div>
               </div>
               </a>
@@ -93,13 +90,40 @@
   </div>
   
 </nav>
-  <!--Page content-->
-  <form>
     <div class="container-fluid top st_p_content">
-        <div class="container ov1">
-          <div class="row">
-            <div class="col-3">
-                <svg xmlns="http://www.w3.org/2000/svg" width="158" height="117" viewBox="0 0 158 117">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="158" height="117" viewBox="0 0 158 117">
+                        <defs>
+                          <style>
+                            .cls1 {
+                              fill: #cdccc9;
+                            }
+                      
+                            .cls-2 {
+                              font-size: 40px;
+                            }
+                      
+                            .cls-2, .cls3 {
+                              font-family: SegoeUI-Light, Segoe UI;
+                              font-weight: 300;
+                            }
+                      
+                            .cls3 {
+                              font-size: 20px;
+                            }
+                          </style>
+                        </defs>
+                        <g id="Group_16" data-name="Group 16" transform="translate(-497 -255)">
+                          <circle id="Ellipse_4" data-name="Ellipse 4" class="cls1" cx="42.5" cy="42.5" r="42.5" transform="translate(531 255)"/>
+                          <text id="_2" data-name="2" class="cls-2" transform="translate(574 314)"><tspan x="-10.303" y="0">1</tspan></text>
+                          <text id="ROOMS_OFFERS" data-name="ROOMS &amp; OFFERS" class="cls3" transform="translate(576 367)"><tspan x="-78.955" y="0">HOTEL &amp; DATES</tspan></text>
+                        </g>
+                      </svg>
+                </div>
+                <div class="col-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="158" height="117" viewBox="0 0 158 117">
                     <defs>
                       <style>
                         .cls1 {
@@ -122,200 +146,101 @@
                     </defs>
                     <g id="Group_16" data-name="Group 16" transform="translate(-497 -255)">
                       <circle id="Ellipse_4" data-name="Ellipse 4" class="cls1" cx="42.5" cy="42.5" r="42.5" transform="translate(531 255)"/>
-                      <text id="_2" data-name="2" class="cls-2" transform="translate(574 314)"><tspan x="-10.303" y="0">1</tspan></text>
-                      <text id="ROOMS_OFFERS" data-name="ROOMS &amp; OFFERS" class="cls3" transform="translate(576 367)"><tspan x="-78.955" y="0">HOTEL &amp; DATES</tspan></text>
+                      <text id="_2" data-name="2" class="cls-2" transform="translate(574 314)"><tspan x="-10.303" y="0">2</tspan></text>
+                      <text id="ROOMS_OFFERS" data-name="ROOMS &amp; OFFERS" class="cls3" transform="translate(576 367)"><tspan x="-72" y="0">ROOMS &amp; OFFERS</tspan></text>
                     </g>
                   </svg>
-            </div>
-            <div class="col-3">
-              <svg xmlns="http://www.w3.org/2000/svg" width="158" height="117" viewBox="0 0 158 117">
-                <defs>
-                  <style>
-                    .cls1 {
-                      fill: #cdccc9;
-                    }
-              
-                    .cls-2 {
-                      font-size: 40px;
-                    }
-              
-                    .cls-2, .cls3 {
-                      font-family: SegoeUI-Light, Segoe UI;
-                      font-weight: 300;
-                    }
-              
-                    .cls3 {
-                      font-size: 20px;
-                    }
-                  </style>
-                </defs>
-                <g id="Group_16" data-name="Group 16" transform="translate(-497 -255)">
-                  <circle id="Ellipse_4" data-name="Ellipse 4" class="cls1" cx="42.5" cy="42.5" r="42.5" transform="translate(531 255)"/>
-                  <text id="_2" data-name="2" class="cls-2" transform="translate(574 314)"><tspan x="-10.303" y="0">2</tspan></text>
-                  <text id="ROOMS_OFFERS" data-name="ROOMS &amp; OFFERS" class="cls3" transform="translate(576 367)"><tspan x="-72" y="0">ROOMS &amp; OFFERS</tspan></text>
-                </g>
-              </svg>
-            </div>
-            <div class="col-3">
-                <svg xmlns="http://www.w3.org/2000/svg" width="158" height="117" viewBox="0 0 158 117">
-                  <defs>
-                    <style>
-                      .cls1 {
-                        fill: #cdccc9;
-                      }
-                
-                      .cls-2 {
-                        font-size: 40px;
-                      }
-                
-                      .cls-2, .cls3 {
-                        font-family: SegoeUI-Light, Segoe UI;
-                        font-weight: 300;
-                      }
-                
-                      .cls3 {
-                        font-size: 20px;
-                      }
-                    </style>
-                  </defs>
-                  <g id="Group_16" data-name="Group 16" transform="translate(-497 -255)">
-                    <circle id="Ellipse_4" data-name="Ellipse 4" class="cls1" cx="42.5" cy="42.5" r="42.5" transform="translate(531 255)"/>
-                    <text id="_2" data-name="2" class="cls-2" transform="translate(574 314)"><tspan x="-10.303" y="0">3</tspan></text>
-                    <text id="ROOMS_OFFERS" data-name="ROOMS &amp; OFFERS" class="cls3" transform="translate(576 367)"><tspan x="-30" y="0">Details</tspan></text>
-                  </g>
-                </svg>
+                </div>
+                <div class="col-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="158" height="117" viewBox="0 0 158 117">
+                      <defs>
+                        <style>
+                          .cls1 {
+                            fill: #cdccc9;
+                          }
+                    
+                          .cls-2 {
+                            font-size: 40px;
+                          }
+                    
+                          .cls-2, .cls3 {
+                            font-family: SegoeUI-Light, Segoe UI;
+                            font-weight: 300;
+                          }
+                    
+                          .cls3 {
+                            font-size: 20px;
+                          }
+                        </style>
+                      </defs>
+                      <g id="Group_16" data-name="Group 16" transform="translate(-497 -255)">
+                        <circle id="Ellipse_4" data-name="Ellipse 4" class="cls1" cx="42.5" cy="42.5" r="42.5" transform="translate(531 255)"/>
+                        <text id="_2" data-name="2" class="cls-2" transform="translate(574 314)"><tspan x="-10.303" y="0">3</tspan></text>
+                        <text id="ROOMS_OFFERS" data-name="ROOMS &amp; OFFERS" class="cls3" transform="translate(576 367)"><tspan x="-30" y="0">Details</tspan></text>
+                      </g>
+                    </svg>
+                  </div>
+                <div class="col-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="152" height="117" viewBox="0 0 152 117">
+                      <defs>
+                        <style>
+                          .cls-11, .cls-3 {
+                            fill: #b3a258;
+                          }
+                    
+                          .cls-11 {
+                            stroke: #fff;
+                          }
+                    
+                          .cls-2 {
+                            fill: #fff;
+                            font-size: 40px;
+                          }
+                    
+                          .cls-2, .cls-3 {
+                            font-family: SegoeUI-Bold, Segoe UI;
+                            font-weight: 700;
+                          }
+                    
+                          .cls-3 {
+                            font-size: 20px;
+                          }
+                    
+                          .cls-4 {
+                            stroke: none;
+                          }
+                    
+                          .cls-5 {
+                            fill: none;
+                          }
+                        </style>
+                      </defs>
+                      <g id="Group_15" data-name="Group 15" transform="translate(-500 -255)">
+                        <g id="Ellipse_4" data-name="Ellipse 4" class="cls-11" transform="translate(531 255)">
+                          <circle class="cls-4" cx="42.5" cy="42.5" r="42.5"/>
+                          <circle class="cls-5" cx="42.5" cy="42.5" r="42"/>
+                        </g>
+                        <text id="_1" data-name="1" class="cls-2" transform="translate(574 314)"><tspan x="-11.504" y="0">4</tspan></text>
+                        <text id="ROOMS_OFFERS" data-name="ROOMS &amp; OFFERS" class="cls-3" transform="translate(576 367)"><tspan x="-78.955" y="0">CONFIRMATION</tspan></text>
+                      </g>
+                    </svg>
               </div>
-            <div class="col-3">
-              <svg xmlns="http://www.w3.org/2000/svg" width="152" height="117" viewBox="0 0 152 117">
-                  <defs>
-                    <style>
-                      .cls-11, .cls-3 {
-                        fill: #b3a258;
-                      }
                 
-                      .cls-11 {
-                        stroke: #fff;
-                      }
+              </div>
+            <div class="row cffromrow">
                 
-                      .cls-2 {
-                        fill: #fff;
-                        font-size: 40px;
-                      }
-                
-                      .cls-2, .cls-3 {
-                        font-family: SegoeUI-Bold, Segoe UI;
-                        font-weight: 700;
-                      }
-                
-                      .cls-3 {
-                        font-size: 20px;
-                      }
-                
-                      .cls-4 {
-                        stroke: none;
-                      }
-                
-                      .cls-5 {
-                        fill: none;
-                      }
-                    </style>
-                  </defs>
-                  <g id="Group_15" data-name="Group 15" transform="translate(-500 -255)">
-                    <g id="Ellipse_4" data-name="Ellipse 4" class="cls-11" transform="translate(531 255)">
-                      <circle class="cls-4" cx="42.5" cy="42.5" r="42.5"/>
-                      <circle class="cls-5" cx="42.5" cy="42.5" r="42"/>
-                    </g>
-                    <text id="_1" data-name="1" class="cls-2" transform="translate(574 314)"><tspan x="-11.504" y="0">4</tspan></text>
-                    <text id="ROOMS_OFFERS" data-name="ROOMS &amp; OFFERS" class="cls-3" transform="translate(576 367)"><tspan x="-78.955" y="0">CONFIRMATION</tspan></text>
-                  </g>
-                </svg>
-          </div>
-            
-          </div>
-            <div class="row">
-                <div class="col-6">
-                    <div class="container-fluid">
-                    <div class="row formrw1">
-                        Payment Details
-                    </div>
-                    <div class="row formrw2">
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                            <label class="form-check-label" for="flexRadioDefault1">
-                              Bank Transfer
-                            </label>
-                            <p class="pg2">
-                                Your booking is not confirmed until payment is received according to the deposit policy. 
-                                Please make your payment promptly, and upon receipt, your booking will be confirmed.
-                            </p>
-                            <hr>
-                            <p class="para">OR</p>
-                          </div>
-                          <div class="form-check1">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                            <label class="form-check-label" for="flexRadioDefault2">
-                              Credit Card
-                            </label>
-                            
-                                <div class="mb-3">
-                                  <label for="exampleInputEmail1" class="form-label">Credit Card Number</label>
-                                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                  </div>
-    
-                                  <div class="mb-3">
-                                    <label for="exampleInputEmail1" class="form-label">Name on Card</label>
-                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                    </div>
-    
-                                    <div class="col-md-6">
-                                        <label for="inputEmail4" class="form-label">Name on card</label>
-                                        <input type="email" class="form-control" id="inputEmail4">
-                                      </div>
-                                      
-                                      <div class="col-md-6">
-                                        <label for="inputPassword4" class="form-label">CVV</label>
-                                        <input type="password" class="form-control" id="inputPassword4">
-                                      </div>
-                                      <!---->
-                                      <input type="text" class="hidden_input" >
-                                      <!--Pass total price to this input field-->
-                                      <!---->
-                                      <button type="button" class="button button1" data-bs-toggle="modal" data-bs-target="#myModal">CONFIRM BOOKING</button>
-                                      <P class=pg3>
-                                        Confirmation will be sent to your email address
-                                      </P>
-                            
-                          </div>
-                    </div>
-                    </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4"></div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4 cfcol">
+                <form>
+                    <h5 class="cf_h5">Hello UserName</h5>
+                    <h6 class="cf_h6">Thanks for choosing XYZ Hotels your Reservation was Placed Succesfully</h6>
+                    <hr>
+
+                </form>
                 </div>
-                <div class="col-1"></div>
-                <div class="col-5">
-                    <div class="container-fluid">
-                        <div class="row formrw3">
-                            Your Selection
-                        </div>
-                        
-                        <div class="row formrw4">
-                            <div class="col-7">
-                                Premium Beach Access Room
-                                <hr>
-                                <br>
-                               <p class="pg"> Total Price </p>
-                            </div>
-                            <div class="col-5">
-                                60 000
-                            <hr>
-                            <br>
-                           <p class="pg"> 60 000 LKR </p>
-                            </div>
-                        </div>
-                        
-                        
-                    </div>
-                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4"></div>
             </div>
-            <!--Prefooter here-->
+            <!--prefooter here-->
             <div class="container">
               <div class="row">
                 <div class="col-12">
@@ -382,33 +307,9 @@
                 </div>
               </div>
             </div>
-            <!--Prefooter here--><!-- The Modal -->
-<div class="modal" id="myModal">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <!-- Modal body -->
-      <div class="modal-body">
-        <div class="row">
-          <div class="col-10">
-            <h5 class="cf_h5" style="text-align: center;">Hello UserName</h5>
-          </div>
-          <div class="col-2">
-            <button type="button" class="btn-close"  data-bs-dismiss="modal"></button>
-          </div>
-        </div>
-        <h6 class="cf_h6">To confirm your reservation please enter your password of xyz hotel account</h6>
-        <input type="password" class="form-control cfpw" placeholder="Password" required>
-        <input type="submit" class="form-control btn cfbn" value="Book Now" >
-      </div>
-
-    </div>
-  </div>
-</div>
+            <!--prefooter here-->    
         </div>
     </div>
-
-  </form>
-
     
 </body>
 </html>

@@ -16,8 +16,6 @@
      <link rel="stylesheet" href="CSS/hotel_dates.css">
      <link rel="stylesheet" href="CSS/nav.css">
      <link rel="stylesheet" href="CSS/prefooter.css">
-
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <title>XYZ Hotel</title>
 </head>
 <body>
@@ -44,13 +42,13 @@
               <a href="#" class="lg" >
                 <div class="row" data-bs-toggle="modal" data-bs-target="#myModal">
                   <div class="col-3"><img src="SVG_icons/profile.svg"></div>
-                  <div class="col-9"><p style="text-transform: uppercase">${fName}</p></div>
+                  <div class="col-9"><p>Shehan</p></div>
                 </div></a>
             </div>
             <div class="col sp_nv">
-              <a href="/logOut" class="sp" >
+              <a href="#" class="sp" >
               <div class="row" >
-                <div class="col-9"><p>LOGOUT</p></div>
+                <div class="col-9"><p>LOG OUT</p></div>
                 <div class="col-3"><img src="SVG_icons/login.svg"></div>
               </div>
               </a>
@@ -142,7 +140,7 @@
               <circle class="cls-5" cx="42.5" cy="42.5" r="42"/>
             </g>
             <text id="_1" data-name="1" class="cls-2" transform="translate(574 314)"><tspan x="-11.504" y="0">1</tspan></text>
-            <text id="HOTEL_DATES" data-name="HOTEL &amp; DATES" class="cls-3" transform="translate(576 367)"><tspan x="-75.493" y="0">HOTEL &amp; DATES</tspan></text>
+            <text id="HOTEL_DATES" data-name="HOTEL &amp; DATES" class="cls-3" transform="translate(576 367)"><tspan x="-75.493" y="0">HALLS &amp; DATES</tspan></text>
           </g>
         </svg>
       </div>
@@ -171,7 +169,7 @@
           <g id="Group_16" data-name="Group 16" transform="translate(-497 -255)">
             <circle id="Ellipse_4" data-name="Ellipse 4" class="cls1" cx="42.5" cy="42.5" r="42.5" transform="translate(531 255)"/>
             <text id="_2" data-name="2" class="cls-2" transform="translate(574 314)"><tspan x="-10.303" y="0">2</tspan></text>
-            <text id="ROOMS_OFFERS" data-name="ROOMS &amp; OFFERS" class="cls3" transform="translate(576 367)"><tspan x="-78.955" y="0">ROOMS &amp; OFFERS</tspan></text>
+            <text id="ROOMS_OFFERS" data-name="ROOMS &amp; OFFERS" class="cls3" transform="translate(576 367)"><tspan x="-78.955" y="0">HALLS &amp; OFFERS</tspan></text>
           </g>
         </svg>
       </div>
@@ -234,9 +232,9 @@
         </svg>
       </div>
       <div class="row hs1">
-        <div class="col-12 "><h4>XYZ Galle Resort</h4></div>
+        <div class="col-12 "><h4>XYZ Galle Resort Halls</h4></div>
       </div>
-    </div>
+   
     <div class="row">
       <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12">
         <!-- Carousel -->
@@ -244,13 +242,13 @@
           <!-- The slideshow/carousel -->
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="Image/2222.jpg" alt="Los Angeles" class="d-block w-100">
+              <img src="Image/best-wedding-reception-halls-in-patna-you-will-absolutely-fall-in-love-with.jpg" alt="Los Angeles" class="d-block w-100">
             </div>
             <div class="carousel-item">
-              <img src="Image/3333.jpg" alt="Chicago" class="d-block w-100">
+              <img src="Image/2.jpg" alt="Chicago" class="d-block w-100">
             </div>
             <div class="carousel-item">
-              <img src="Image/4444.webp" alt="New York" class="d-block w-100">
+              <img src="Image/cinnamon_grand_colombo-oak_room_setup.jpg" alt="New York" class="d-block w-100">
             </div>
           </div>
           <!-- Left and right controls/icons -->
@@ -263,25 +261,25 @@
         </div>
       </div>
       <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12">
-        <p> XYZ Galle Resort site on a rocky outcrop on the southern coast of Sri Lanka near the old fort town 
-          of Tangalle.Golden-hued beach fringed by coconut palms overlooks the roaring Indian Ocean.
+        <p> Both Halls are fully air- conditioned, fully carpeted and fully 
+          curtained to match cozy five star ambience. A party may obtain also two halls 
+          together for the same function, in cases of high guest capacity
           <br>
-          Explore the island's rainforests, pilgrimage sites and fishing ports. Dine cliffside, 
-          embark on surf adventures, or retreat to the sanctuary of Anantara Spa with award-winning Ayurvedic treatments.
+          
           <br>
           <ul>
-            <li>152 rooms and pool villas</li>
-            <li>Ayurvedic treatments at Anantara Spa</li>
+            <li>3 halls</li>
+            <li>400 floor capacity for each hall</li>
             <li>Spectacular cliffside dining</li>
-            <li>Access to historical, natural and cultural highlights</li>
-            <li>Travel requirements</li>
+            <li>Fully air conditioned</li>
+            <li>5 Amps + 15 Amps plug points between every 14 feet distance along walls</li>
           </ul>
           
      </p>
       </div>
     </div>
 <div class="row hs2">
-  <h5> Select your hotel of choice and travel dates.</h5>
+  <h5> Select your Hall of Choice and Reservation Date</h5>
 </div>
 
 <div class="container tw1">
@@ -291,10 +289,10 @@
     <div class="col-6 col-sm-6 col-md-5 col-lg-5 col-xl-5 col-xxl-5 rw2">
       <div class="row">
         <div class="col">
-          <label for="checkin" class="in">Check in</label>
+          <label for="" class="in">Check in</label>
         </div>
         <div class="col">
-          <input type="date" class="form-control" id="checkin">
+          <input type="date" class="form-control">
         </div>
       </div>
           
@@ -303,15 +301,15 @@
     <div class="col-6 col-sm-6 col-md-5 col-lg-5 col-xl-5 col-xxl-5 rw2">
       <div class="row">
         <div class="col">
-          <label for="checkOut" class="ot">Check out</label>
+          <label for="" class="ot">Check out</label>
         </div>
         <div class="col">
-          <input type="date" class="form-control" id="checkOut">
+          <input type="date" class="form-control">
         </div>
       </div>
     </div>
     <div class="col-12 col-sm-12 col-md-5 col-lg-2 col-xl-2 col-xxl-2 rw1">
-      <input  type="button" class="form-control btn btn-primary checkHD" id="checkAvailability" value="Check">
+      <input type="submit" class="form-control btn btn-primary checkHD" value="Check">
     </div>
 
   
@@ -319,50 +317,50 @@
   <div class="row">
     <div class="col-12">
       <div class="container-fluid tw2">
-        <div class="table-responsive" id="availableRoomTable">
-<%--          <table class="table" id="availableRoomTable">--%>
-<%--            <thead>--%>
-<%--              <tr>--%>
-<%--                <th class="th1"></th>--%>
-<%--                <th class="th2">Availability</th>--%>
-<%--                <th class="th2">Quantity</th>--%>
-<%--                <th class="th2">Rate</th>--%>
-<%--              </tr>--%>
-<%--            </thead>--%>
-<%--            <tbody>--%>
-<%--              <tr>--%>
-<%--                <td class="th3">--%>
-<%--                <img src="Image/3333.jpg" alt="" class="imgr1">--%>
-<%--                  Primere beach access room</td>--%>
-<%--                <td class="datatb" style="color: green;">Available</td>--%>
-<%--                <td class="datatb">20 Rooms</td>--%>
-<%--                <td class="datatb">25 000 LKR</td>--%>
-<%--                --%>
-<%--              </tr>--%>
-<%--              <tr>--%>
-<%--                <td class="th3" >--%>
-<%--                  <img src="Image/4444.webp" alt="" class="imgr1">--%>
-<%--                  Primere Ocean View room</td>--%>
-<%--                <td class="datatb" style="color: red;">SOLD</td>--%>
-<%--                <td class="datatb" style="color: red;">0 Rooms</td>--%>
-<%--                <td class="datatb" style="color: red;">50 000 LKR</td>--%>
-<%--                --%>
-<%--              </tr>--%>
-<%--              <tr>--%>
-<%--                <td class="th3">--%>
-<%--                  <img src="Image/3333.jpg" alt="" class="imgr1">--%>
-<%--                  Deluxe Ocean View room</td>--%>
-<%--                <td class="datatb" style="color: green;">Available</td>--%>
-<%--                <td class="datatb">30 Rooms</td>--%>
-<%--                <td class="datatb">75 000 LKR</td>--%>
-<%--                --%>
-<%--              </tr>--%>
-<%--            </tbody>--%>
-<%--          </table>--%>
+        <div class="table-responsive">          
+          <table class="table">
+            <thead>
+              <tr>
+                <th class="th1"></th>
+                <th class="th2">Availability</th>
+                <th class="th2">Quantity</th>
+                <th class="th2">Rate</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="th3">
+                <img src="Image/3333.jpg" alt="" class="imgr1">
+                  Primere beach access room</td>
+                <td class="datatb" style="color: green;">Available</td>
+                <td class="datatb">20 Rooms</td>
+                <td class="datatb">25 000 LKR</td>
+                
+              </tr>
+              <tr>
+                <td class="th3" >
+                  <img src="Image/4444.webp" alt="" class="imgr1">
+                  Primere Ocean View room</td>
+                <td class="datatb" style="color: red;">SOLD</td>
+                <td class="datatb" style="color: red;">0 Rooms</td>
+                <td class="datatb" style="color: red;">50 000 LKR</td>
+                
+              </tr>
+              <tr>
+                <td class="th3">
+                  <img src="Image/3333.jpg" alt="" class="imgr1">
+                  Deluxe Ocean View room</td>
+                <td class="datatb" style="color: green;">Available</td>
+                <td class="datatb">30 Rooms</td>
+                <td class="datatb">75 000 LKR</td>
+                
+              </tr>
+            </tbody>
+          </table>
           </div>
           <div class="row">
             <div class="col-12">
-              <button type="button" class="btnone" ><a href="/availablerooms" style="color: white;" >BOOK NOW</a></button>
+              <button type="button" class="btnone" ><a href="/hallbooking" style="color: white;" >BOOK NOW</a></button>
             </div>
           </div>   
       </div>
@@ -445,8 +443,8 @@
   </div>
   <!--prefooter here-->
 </div>
-  </div>
-  <script src="Js/page/availableDates.js"></script>
+  </div> 
+  
 
   <script>
     var date = new Date();

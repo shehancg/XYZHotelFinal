@@ -21,4 +21,11 @@ spring:
     view:
       #prefix: /WEB-INF/
       suffix: .jsp
-
+  h2:
+    console:
+      enabled: true
+  session:
+    store-type: jdbc
+    jdbc:
+      initialize-schema: always
+    timeout: 900

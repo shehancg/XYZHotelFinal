@@ -17,5 +17,6 @@ public interface ReservationRepository extends JpaRepository<ReservationObj,Inte
     @Query ("SELECT new com.example.xyzhotelfinal.dto.ReservationDto(r.reservationId, m.roomNo) FROM ReservationObj r JOIN r.reservationRooms m")
     public List<ReservationDto> getJoinInformation();
 
-
+    @Query ("SELECT new com.example.xyzhotelfinal.dto.ReservationHallDto(r.reservationId, m.roomNo) FROM ReservationObj r JOIN r.reservationRooms m")
+    public List<ReservationDto> getHallJoinInformation();
 }

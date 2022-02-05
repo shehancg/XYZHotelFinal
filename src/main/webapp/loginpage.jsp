@@ -97,7 +97,7 @@
                 <a class="nav-link" href="#">MEETING</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">WEDDINGS</a>
+                <a class="nav-link" href="/hallsview">WEDDINGS</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">CONTACT</a>

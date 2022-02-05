@@ -121,7 +121,7 @@
                         <g id="Group_16" data-name="Group 16" transform="translate(-497 -255)">
                           <circle id="Ellipse_4" data-name="Ellipse 4" class="cls1" cx="42.5" cy="42.5" r="42.5" transform="translate(531 255)"/>
                           <text id="_2" data-name="2" class="cls-2" transform="translate(574 314)"><tspan x="-10.303" y="0">1</tspan></text>
-                          <text id="ROOMS_OFFERS" data-name="ROOMS &amp; OFFERS" class="cls3" transform="translate(576 367)"><tspan x="-78.955" y="0">HOTEL &amp; DATES</tspan></text>
+                          <text id="ROOMS_OFFERS" data-name="ROOMS &amp; OFFERS" class="cls3" transform="translate(576 367)"><tspan x="-78.955" y="0">HALLS &amp; DATES</tspan></text>
                         </g>
                       </svg>
                 </div>
@@ -166,7 +166,7 @@
                             <circle class="cls-5" cx="42.5" cy="42.5" r="42"/>
                           </g>
                           <text id="_1" data-name="1" class="cls-2" transform="translate(574 314)"><tspan x="-11.504" y="0">2</tspan></text>
-                          <text id="ROOMS_OFFERS" data-name="ROOMS &amp; OFFERS" class="cls-3" transform="translate(576 367)"><tspan x="-75.493 " y="0">ROOMS &amp; OFFERS</tspan></text>
+                          <text id="ROOMS_OFFERS" data-name="ROOMS &amp; OFFERS" class="cls-3" transform="translate(576 367)"><tspan x="-75.493 " y="0">HALLS &amp; OFFERS</tspan></text>
                         </g>
                       </svg>
                 </div>
@@ -228,10 +228,10 @@
                     </g>
                   </svg>
                 </div>
-                <div class="row hs1">
-                  <div class="col-12 "><h4>XYZ Galle Resort</h4></div>
-                </div>
+              <div class="row hs1">
+                <div class="col-12 "><h4>XYZ Galle Resort Halls</h4></div>
               </div>
+
               <div class="row">
                 <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12">
                   <!-- Carousel -->
@@ -239,44 +239,44 @@
                     <!-- The slideshow/carousel -->
                     <div class="carousel-inner">
                       <div class="carousel-item active">
-                        <img src="Image/2222.jpg" alt="Los Angeles" class="d-block w-100">
+                        <img src="Image/best-wedding-reception-halls-in-patna-you-will-absolutely-fall-in-love-with.jpg" alt="Los Angeles" class="d-block w-100">
                       </div>
                       <div class="carousel-item">
-                        <img src="Image/3333.jpg" alt="Chicago" class="d-block w-100">
+                        <img src="Image/2.jpg" alt="Chicago" class="d-block w-100">
                       </div>
                       <div class="carousel-item">
-                        <img src="Image/4444.webp" alt="New York" class="d-block w-100">
+                        <img src="Image/cinnamon_grand_colombo-oak_room_setup.jpg" alt="New York" class="d-block w-100">
                       </div>
                     </div>
                     <!-- Left and right controls/icons -->
                     <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
+                      <span class="carousel-control-prev-icon"></span>
                     </button>
                     <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                    <span class="carousel-control-next-icon"></span>
+                      <span class="carousel-control-next-icon"></span>
                     </button>
                   </div>
                 </div>
                 <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12">
-                  <p> XYZ Galle Resort site on a rocky outcrop on the southern coast of Sri Lanka near the old fort town 
-                    of Tangalle.Golden-hued beach fringed by coconut palms overlooks the roaring Indian Ocean.
+                  <p> Both Halls are fully air- conditioned, fully carpeted and fully
+                    curtained to match cozy five star ambience. A party may obtain also two halls
+                    together for the same function, in cases of high guest capacity
                     <br>
-                    Explore the island's rainforests, pilgrimage sites and fishing ports. Dine cliffside, 
-                    embark on surf adventures, or retreat to the sanctuary of Anantara Spa with award-winning Ayurvedic treatments.
+
                     <br>
-                    <ul>
-                      <li>152 rooms and pool villas</li>
-                      <li>Ayurvedic treatments at Anantara Spa</li>
-                      <li>Spectacular cliffside dining</li>
-                      <li>Access to historical, natural and cultural highlights</li>
-                      <li>Travel requirements</li>
-                    </ul>
-                    
-               </p>
+                  <ul>
+                    <li>3 halls</li>
+                    <li>400 floor capacity for each hall</li>
+                    <li>Spectacular cliffside dining</li>
+                    <li>Fully air conditioned</li>
+                    <li>5 Amps + 15 Amps plug points between every 14 feet distance along walls</li>
+                  </ul>
+
+                  </p>
                 </div>
               </div>
               <div class="row hs2">
-                <h6> Select your hotel of choice and travel dates. </h6>
+                <h5> Select your Hall of Choice and Reservation Date</h5>
               </div>
               <div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-7">
@@ -287,7 +287,7 @@
                           <div class="col-6 col-sm-6 col-md-5 col-lg-5 col-xl-5 col-xxl-5 rw2">
                             <div class="row">
                               <div class="col">
-                                <label for="checkIn" class="in">Check in</label>
+                                <label for="checkIn" class="in">Check In</label>
                               </div>
                               <div class="col">
                                 <input id="checkin" type="date" class="form-control">
@@ -425,8 +425,7 @@
             <div class="row">
               <div class="col"></div>
               <div class="col">
-<%--                <input type="submit" class="form-control btn nextbtn" id="nextBtn" value="Next" >--%>
-                <button class="form-control btn nextbtn"><a href="/details" style="color: white;">NEXT</a></button>
+                <input type="submit" class="form-control btn nextbtn" value="Next" >
               </div>
               <div class="col"></div>
             </div>

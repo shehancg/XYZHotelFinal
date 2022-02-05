@@ -1,6 +1,9 @@
 $("#checkAvailability").click(function () {
     let checkInDate = $("#checkin").val();
     let checkOutDate = $("#checkOut").val();
+    var checkInDateSession = window.sessionStorage.setItem("checkInDateSession", checkInDate);
+    var checkOutDateSession = window.sessionStorage.setItem("checkOutDateSession", checkOutDate);
+
     console.log(checkInDate);
     console.log(checkOutDate);
     let dates ={
@@ -170,7 +173,7 @@ function table(dataArray,roomsArray) {
             "                            <input id=\"increament\" type=\"number\" class=\"form-control\" value=\"0\" aria-valuemax=\"5\" name="+dataArrayValue.roomTypeName+" >\n" +
             "                        </div>\n" +
             "                           <div class=\"col\">\n"+
-            "                           <input type=\"button\" class=\"decreaseBtn\"> \n"+
+            "                           <input type=\"button\"value='ADD TO CART' class=\"decreaseBtn\"> \n"+
             "                           </div>\n"+
             "                    </div>\n" +
             "                </div>\n" +
@@ -197,20 +200,28 @@ let roomCount3 = 0;
 
 $('body').on('click', '.decreaseBtn', function () {
     var countNameGold = Number($("#countgold").text());
+    var goldRoomPrice = window.sessionStorage.setItem("goldRoomPrice", 30000);
+
     console.log(countNameGold);
     var countNameSilver = Number($("#countsilver").text());
+    var silverRoomPrice = window.sessionStorage.setItem("silverRoomPrice", 50000);
+
     console.log(countNameSilver);
     var countNamePlatinum = Number($("#countplatinum").text());
+    var platinumRoomPrice = window.sessionStorage.setItem("platinumRoomPrice", 100000);
+
     console.log(countNamePlatinum);
 
     var roomCountGold =Number($("input[name=gold]").val());
     if(roomCountGold >0 && roomCountGold !== roomCount1 && countNameGold >= roomCountGold){
+        var goldRoomCount = window.sessionStorage.setItem("goldRoomCount", roomCountGold);
         roomCount1 = roomCountGold;
         var priceeGold =Number($("#pricegold").text());
         calculateBill(priceeGold,roomCountGold);
     }
     var roomCountSilver =Number($("input[name=silver]").val());
     if(roomCountSilver >0 &&  roomCountSilver !== roomCount2 && countNameSilver >= roomCountSilver){
+        var silverRoomCount = window.sessionStorage.setItem("silverRoomCount", roomCountSilver);
         roomCount2 = roomCountSilver;
         var priceeSilver =Number($("#pricesilver").text());
          calculateBill(priceeSilver,roomCountSilver);
@@ -218,6 +229,7 @@ $('body').on('click', '.decreaseBtn', function () {
     }
     var roomCountPlatinum =Number($("input[name=platinum]").val());
     if(roomCountPlatinum  >0 &&  roomCountPlatinum !== roomCount3 && countNamePlatinum >= roomCountPlatinum){
+        var platinumRoomCount = window.sessionStorage.setItem("platinumRoomCount", roomCountPlatinum);
         roomCount3 = roomCountPlatinum;
         var priceePlatinum =Number($("#priceplatinum").text());
         calculateBill(priceePlatinum,roomCountPlatinum);
@@ -232,10 +244,18 @@ function calculateBill(price,count) {
 
      totalBill = totalBill + price;
      console.log(totalBill);
+     var totalBillSession = window.sessionStorage.setItem("totalBill", totalBill);
     $("#totalBill").text(totalBill);
 
-    
+
 }
+
+
+// $("#nextBtn").click(function () {
+//     console.log(getsession1);
+//
+//     window.open("http://localhost:8080/availabledates","_self")
+// });
 
 
 

@@ -34,6 +34,7 @@ function table(dataArray,roomsArray){
         $.each(roomsArray, function (roomsArrayIndex,roomsArrayValue){
             console.log(roomsArrayValue.roomTypeId);
 
+
             if(roomsArrayValue.roomTypeId==dataArrayValue.roomTypeId){
                 roomCount++;
             }
@@ -44,10 +45,10 @@ function table(dataArray,roomsArray){
         }
 
       //  console.log(dataArrayValue.roomTypeName);
-
+      //   dataArrayValue.roomTypeName
       let  tableRows =   "      <tr>\n" +
             "                <td class=\"th3\">\n" +
-            "                <img src=\"Image/3333.jpg\" alt=\"\" class=\"imgr1\">\n" + dataArrayValue.roomTypeName+
+            "                <img src=\"Image/3333.jpg\" alt=\"\" class=\"imgr1\"><h6 style='padding-top: 4px;text-transform:uppercase;color: goldenrod'>"+dataArrayValue.roomTypeName+"</h6>\n"+
             "                </td>\n" +
             "                <td class=\"datatb\" style=\"color: green;\">"+availability+"</td>\n" +
             "                <td class=\"datatb\">"+roomCount+" Rooms</td>\n" +
